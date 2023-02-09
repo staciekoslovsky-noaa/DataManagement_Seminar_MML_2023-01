@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "DataManagementAccessible.html#goals-for-seminar",
+    "href": "DataManagementAccessible.html#goals-for-seminar",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Goals for Seminar",
+    "text": "Goals for Seminar\n\nDefine data management and data manager/scientist role.\nShare concepts and examples.\nEmpower you to take this information back with you into your day-to-day work:\n\nStart Small\nHappy Medium\nBring It On!"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#noaa-data-strategy",
+    "href": "DataManagementAccessible.html#noaa-data-strategy",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "2020 NOAA Data Strategy",
+    "text": "2020 NOAA Data Strategy\n\n\n\n\n“Data are at the heart of NOAA’s $5 billion per year enterprise. … NOAA data are a critical strategic asset used to ensure accountability, manage operations, and to maintain and enhance the performance of the economy, public health, and welfare.”\n\nGoal 1: Align data management leadership roles across the organization.\nGoal 2: Govern and manage data strategically to most effectively steward the US taxpayers’ investment.\nGoal 3: Share data as openly and widely as possible to promote maximum utilization of NOAA data.\nGoal 4: Promote data innovation and quality improvements to facilitate science and support data-driven decision making.\nGoal 5: Engage stakeholders and leverage partnerships to maximize the value of NOAA data to the Nation."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#overview",
+    "href": "DataManagementAccessible.html#overview",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Overview",
+    "text": "Overview\n\nThe data we collect, manage, and analyze today will continue to be available and used by staff in the future (and outside of NOAA). It is, therefore, important to maintain, organize and share our data in a way that will be useful and meaningful to current-us and future-us.\nBut, data storage is costly, in terms of space for storing data, space for backing up data, and time for managing, organizing and documenting data, and so on…\nWe want to be mindful in our data management strategies and application.\nAt least 50% of data management is people-related."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#ideally",
+    "href": "DataManagementAccessible.html#ideally",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Ideally…",
+    "text": "Ideally…\nA well-designed data management system will:\n\nMake archiving, storing, and retrieving information less difficult and tedious;\nEnsure the integrity and continuity of record keeping, despite changes in personnel;\nAllow for the easy identification and purging of outdated information;\nAllow us to more easily share our information…with managers, collaborators, the public;\nBe foundational;\n\nThe technologies we use are ever-changing. Think about the different waves of emerging technologies: GIS, genetics, stable isotopes, machine learning.\nWe can’t predict what will come next, but if we manage our data well, it will be easier to adapt.\n\nBe uniform in implementation; and\nBe expandable and flexible to meet future needs."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#data-management-life-cycle",
+    "href": "DataManagementAccessible.html#data-management-life-cycle",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Data Management Life Cycle",
+    "text": "Data Management Life Cycle\n\n\n\n\nAdopted from DataOne."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#data-management-life-cycle-1",
+    "href": "DataManagementAccessible.html#data-management-life-cycle-1",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Data Management Life Cycle",
+    "text": "Data Management Life Cycle\n\n\n\n\nUpdated to reflect common practices."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan",
+    "href": "DataManagementAccessible.html#plan",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan",
+    "text": "Plan\n\nStart your project and research off with good planning and design.\nData management is just one part of this early planning (and the only focus of this presentation).\nEarly planning takes a lot of work, but working through all these steps from the beginning will save you so much time later."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-things-to-consider",
+    "href": "DataManagementAccessible.html#plan-things-to-consider",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Things to Consider",
+    "text": "Plan: Things to Consider\n\nWhat data will be generated? What data need to be gathered from other places (within your program, within MML, from outside sources)?\nWhere will data for the project be stored (on the network, in a database, on Google Drive, etc.)?\n\nHow will the data be organized? What does the folder structure look like? How will files be named?\nWhat does the database structure look like? How will data be entered or imported?\n\nHow will information about the data be preserved? (GitHub, meeting notes, important decisions, etc.)\nHow will the data move through all the subsequent steps (collection, assurance, description, preservation, discovery, integration and analysis)?\nWho is responsible for doing what? (an important one!)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-folder-organization-ideas",
+    "href": "DataManagementAccessible.html#plan-folder-organization-ideas",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Folder Organization Ideas",
+    "text": "Plan: Folder Organization Ideas\n\n\n\nConsider how to organize folders (by date, project, species).\n\nCreate folders with a top-down hierarchy.\nOrganize images separately.\nDon’t store final data only on your laptop!\n\nIf you’re going to do a big reorganization, consider deleting and archiving things first.\nFor program-wide efforts, work together as a team to come up with different ways to store data, test out some mock-ups, and settle on a solution that works best for the group.\nEstablish a system for version control (e.g. file-naming, Git). Not everything needs version control. Delete obsolete versions of files.\nMaintain whatever system you come up with – check in, adjust it, and clean it up annually."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-folder-organization-personal",
+    "href": "DataManagementAccessible.html#plan-folder-organization-personal",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Folder Organization: Personal",
+    "text": "Plan: Folder Organization: Personal\n\nPersonal File Management (could be on computer or in user’s folder)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-folder-organization-program",
+    "href": "DataManagementAccessible.html#plan-folder-organization-program",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Folder Organization: Program",
+    "text": "Plan: Folder Organization: Program\n\n\nMain Folder Structure\n\n\nSubfolders within…Data\n\n\n…ProgramMgmt & Projects"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-google-drive-organizationoof",
+    "href": "DataManagementAccessible.html#plan-google-drive-organizationoof",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Google Drive Organization…oof",
+    "text": "Plan: Google Drive Organization…oof\nThere are two camps here (and I’ve highlighted some considerations for each):\n\nLet your files be (exist wherever they exist) and share as-needed.\n\nRequires little to no folder organization overhead.\nRelies on the search functionality within Google Drive to find things.\n\nOrganize your files like you would a folder structure on the network or on your computer.\n\nSimpler for on-boarding new staff (who may not know what to search for).\nCan provide a more clear framework for groups working together.\nMore overhead required for managing files.\n\n\nFor larger groups (at the program- or project-scale), I’d recommend organizing a centralized folder system and sharing within that, but either way, it’s a good conversation to have."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-google-drive-organization",
+    "href": "DataManagementAccessible.html#plan-google-drive-organization",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Google Drive Organization",
+    "text": "Plan: Google Drive Organization\nPEP Centralized Google Drive Folder Structure\n\nLAN vs Google Drive\n\nI can’t tell you what is best for you or your project or your program.\nThis should be a group discussion and decision.\nDocument this for yourself and future users (read_me file, project manual, etc.)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-file-naming",
+    "href": "DataManagementAccessible.html#plan-file-naming",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: File Naming",
+    "text": "Plan: File Naming\n\n\n\n\nFile names ideally describe the project, file contents, location, and date – and should be unique enough to stand alone as file descriptions.\nFile names should be:\n\nHuman-readable\nMachine-readable\nPlays well with default ordering (!)\n\nThis may mean different solutions for different projects/reasons.\nOrder by date, number, name, etc.\nMost general to most specific.\n\nSame rules apply to folder names!"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-file-naming-conventions",
+    "href": "DataManagementAccessible.html#plan-file-naming-conventions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: File Naming Conventions",
+    "text": "Plan: File Naming Conventions\n\nFile names should be unique, simple, SHORT, and readable.\nAvoid using spaces. Alternative ways to break up file naming without spaces: CamelCase, lowerCamelCase, snake_case, CamelCase_PlusSnakeCase.\nUse only alpha-numeric characters. Avoid special characters.\nUse leading zeros with the numbers 0-9 for better sorting (e.g., 01, 02, 11, 12).\nDates should formatted to support logical default ordering.\nAvoid unclear names like last, final2, final revised, etc.\n\n\n\nDon’t’s\n\nPlan 1.docx\nProject_DataMgmtPlan_longDetails.docx\n01JAN2023 or 1-1-2023\n\n\nDo’s\n\nProject_DataMgmtPlan_v01.docx\nProject_DataMgmtPlan_ShorterDetails.docx\n20230101 or 2023-01-01 or 2023_01_01"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-datetime-formats",
+    "href": "DataManagementAccessible.html#plan-datetime-formats",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Date/Time Formats",
+    "text": "Plan: Date/Time Formats\n\n\n\n\n\nIn data and in folder/file names, dates should formatted to meet ISO 8601 standards:\n\nYYYY-MM-DD\nYYYYMMDD\nYYYY-MM\nYYYY-Www (e.g. 2023-W03) if you use week data\nThh:mm:ss.sss (using the 24-hour clock system)\n\nWe work across time zones, which makes data collection and management particularly complicated. Consider standardizing date/time data to GMT."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-reproducibility",
+    "href": "DataManagementAccessible.html#plan-reproducibility",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Reproducibility",
+    "text": "Plan: Reproducibility\n\n\nThink about how you’re going to…\n\nProcess and document your data processing steps.\n\nCode is a really nice way to do this. It also saves you time later, if you have to redo anything.\nIf that’s scary or not in your toolkit, writing down the (detailed) steps in a (shared) document is also totally okay.\n\nArchive versions of the data used for analyses, if they cannot be otherwise recreated.\nCome up with a plan for what you need to do with your data to meet PARR requirements. Do this early, and it becomes an easy box-checking exercise later."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#plan-take-away-actions",
+    "href": "DataManagementAccessible.html#plan-take-away-actions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Plan: Take-away Actions",
+    "text": "Plan: Take-away Actions\n\n\nStart Small\n\nPick one thing that you think would be most beneficial for you to try. Build incrementally.\nDon’t try to do everything all at once or go back through all your older work. Start small with something new(ish).\n\nHappy Medium\n\nWork with other members of your project/program to start to bring more of these measures into your work.\n\nBring It On!\n\nDevelop a comprehensive data management plan for your project/program.\nUse common planning and structures across program projects.\nClean up and reorganize your own/project/program file organization."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect",
+    "href": "DataManagementAccessible.html#collect",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect",
+    "text": "Collect\nHow you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!\n\nUse consistent methods for collecting data.\n\nSet up a template for data storage.\nUse datasheets or cloud-based data recording systems that mirror how data will be stored later.\nUse the same format year-to-year, changing as little as possible.\n\nUse consistent data organization:\n\nWide format (spreadsheet format): each row represents a complete entry.\nLong format (database format): one column defines the parameter and one column stores the value of the parameter; makes data easier to migrate to a database later!\nColor-coding in spreadsheets is great for visualization…but it’s not a substitute for organizing your data properly."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-1",
+    "href": "DataManagementAccessible.html#collect-1",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect",
+    "text": "Collect\nHow you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!\n\nAtomize data (make sure there is only one piece of information in each row/column entry).\n\nDon’t store multiple bits of information in the same field.\nComments fields are okay, but if you’re going to need to mine them later for more information, save yourself the extra work from the beginning…\n\nKeep your raw data raw. Preserve it, imperfections and all.\n\nUse a separate process to clean the data, ideally scripted to make the process reproducible (more to come on this in the Assure section).\nWork off the cleaned version of the data.\n\nImport raw or manually enter data into a database!"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-data-collection-template",
+    "href": "DataManagementAccessible.html#collect-data-collection-template",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Data Collection Template",
+    "text": "Collect: Data Collection Template\n\n\n\nMain Folder Structure\n\n\n\n\nSubfolder Structure"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-wide-vs-long-formats",
+    "href": "DataManagementAccessible.html#collect-wide-vs-long-formats",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Wide vs Long Formats",
+    "text": "Collect: Wide vs Long Formats\n\n\nWide Format\n\n\nLong Format (preferred)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-measurements-units",
+    "href": "DataManagementAccessible.html#collect-measurements-units",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Measurements + Units",
+    "text": "Collect: Measurements + Units\n\nIf you’re storing the data in a wide format (each measurement type gets it’s own field)…\n\nAND all the measurements are in the same unit, store the unit at the end of the field name (e.g. length_m).\nAND the measurements are collected in different units, you could easily get yourself in trouble. Either (preferably) convert to all the same units and name the field accordingly (with units at the end) OR create another field in which you store the associated units.\n\nIf you’re storing the data in a long format (all measurements in the same field, with another field indicating the measurement type), either create a measurement unit field OR (in a database) related the measurements to a measurement type lookup table and store the unit information there."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-archivestorage",
+    "href": "DataManagementAccessible.html#collect-archivestorage",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Archive/Storage",
+    "text": "Collect: Archive/Storage\n\n\n\nStore data in non-proprietary formats (when possible) that are easy to work with in programming software:\n\nCSV\nText files\nDatabase - benefit of related data and lookup values\n\nPostgreSQL / SQL Server / Azure\nGeodatabases\n\n\nAvoid long field names.\nAvoid using special characters and spaces in field names.\nStore spatial data in appropriate projections. Decimal degrees in WGS-84 are a good default option.\n\n\nPEP Database Schemas"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-example-1-glacial-database",
+    "href": "DataManagementAccessible.html#collect-example-1-glacial-database",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Example #1 (glacial database)",
+    "text": "Collect: Example #1 (glacial database)\nPostgreSQL Database Structure (data are atomized within fields and link across tables)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-example-1-glacial-database-1",
+    "href": "DataManagementAccessible.html#collect-example-1-glacial-database-1",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Example #1 (glacial database)",
+    "text": "Collect: Example #1 (glacial database)\nData Entry Forms (in Access)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-example-1-glacial-database-2",
+    "href": "DataManagementAccessible.html#collect-example-1-glacial-database-2",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Example #1 (glacial database)",
+    "text": "Collect: Example #1 (glacial database)\nProcess Tracking (in Access)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-example-1-glacial-database-3",
+    "href": "DataManagementAccessible.html#collect-example-1-glacial-database-3",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Example #1 (glacial database)",
+    "text": "Collect: Example #1 (glacial database)\nDataset Tracking (in Access)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#collect-take-away-actions",
+    "href": "DataManagementAccessible.html#collect-take-away-actions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Collect: Take-away Actions",
+    "text": "Collect: Take-away Actions\n\n\nStart Small\n\nRethink how you collect and store data while in the field.\nCome up with a more standardized folder structure and file naming approach.\n\nHappy Medium\n\nMigrate your data to a long data format.\nRe-evaluate datasheets and other data collection strategies.\n\nBring It On!\n\nMigrate data to a database.\nDevelop cloud-based data collection tools for the field.\nAutomate data collection, where possible."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#assure",
+    "href": "DataManagementAccessible.html#assure",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Assure",
+    "text": "Assure\n\n\nThis is an easy step to overlook. Doing it well takes time…\nThings to look at in your data:\n\nConsistency in values throughout data collection.\nReasonable min-max, average, range values for each field (query-based or graphically).\nMissing data.\nLarge gaps in data (spatial or temporal bias?).\nDouble-checking data that were manually entered.\nLogical checks.\nAssign quality flags to records to “remove” bad records.\n\nSkipping this step can be catastrophic…"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#assure-example-1-in-field-report",
+    "href": "DataManagementAccessible.html#assure-example-1-in-field-report",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Assure: Example #1 (in-field report)",
+    "text": "Assure: Example #1 (in-field report)\nReview field data to ensure there were no issues with initial data collection…"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#assure-example-2-in-database",
+    "href": "DataManagementAccessible.html#assure-example-2-in-database",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Assure: Example #2 (in database)",
+    "text": "Assure: Example #2 (in database)\nIn a database, tables are where your data are stored. Queries are layers that exist on top of that table that summarize, filter. or order your data…they do not make another copy of the data. When your underlying data change, the data in the query also change automatically.\nUsing queries to standardize extraction and to complete quality checks…"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#assure-take-away-actions",
+    "href": "DataManagementAccessible.html#assure-take-away-actions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Assure: Take-away Actions",
+    "text": "Assure: Take-away Actions\n\n\nStart Small\n\nReview data/datasheets in the field to catch problems early.\nThink of some new ways to quality check your data (e.g., figures in Excel, manual review).\n\nHappy Medium\n\nAssure quality data before you collect or enter data (e.g., drop-down menus in a spreadsheet/database).\nIdentify ways to differentiate missing and NULL values.\n\nBring It On!\n\nDevelop a systematic and automated quality assurance process to run on data after data collection (e.g. database queries, reports generated in R)."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#describe",
+    "href": "DataManagementAccessible.html#describe",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Describe",
+    "text": "Describe\n\n\nThis is another step that takes a lot of time to do well, but your future self will be really appreciative of your current self doing a thorough job.\n\nDescribe the data organization.\nDescribe who did what and the appropriate contact information.\nDescribe the scientific context.\nDescribe the data and parameters.\n\nThis is doesn’t just have to be done in InPort.\n**Any dataset metadata records created in InPort are required to have their data available online within one year of when the metadata record was created. This does not apply to project-level metadata records (FYI).**"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#describe-example-1-inport",
+    "href": "DataManagementAccessible.html#describe-example-1-inport",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Describe: Example #1 (InPort)",
+    "text": "Describe: Example #1 (InPort)\nPEP Metadata Repository"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#describe-example-2-dashboard",
+    "href": "DataManagementAccessible.html#describe-example-2-dashboard",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Describe: Example #2 (dashboard)",
+    "text": "Describe: Example #2 (dashboard)\nProject management tracking within PEP dashboard"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#describe-example-3-github",
+    "href": "DataManagementAccessible.html#describe-example-3-github",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Describe: Example #3 (GitHub)",
+    "text": "Describe: Example #3 (GitHub)\nProject management on GitHub (developed by Josh London)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#describe-take-away-actions",
+    "href": "DataManagementAccessible.html#describe-take-away-actions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Describe: Take-away Actions",
+    "text": "Describe: Take-away Actions\n\n\n\nStart Small\n\nStart a shared document for tracking processing steps.\nStart an on-going meeting notes document.\n\nHappy Medium\n\nDevelop a Google Space for sharing information (rather than through email).\nUse Google Tasks to track work.\n\nBring It On!\n\nProject and issue tracking on GitHub.\nDevelop project/program-wide method for tracking information."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#preservediscover",
+    "href": "DataManagementAccessible.html#preservediscover",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Preserve/Discover",
+    "text": "Preserve/Discover\n\n\nWant to share data and make it find-able!\nFind the archive location that makes the most sense for your data.\nAt a minimum, sharing your data online meets PARR requirements…but this can also be a really cool way to highlight or showcase a particular research project.\n\nData preserving considerations:\n\nIdentify what best to share.\nUse standard terminology (where applicable).\nRemove any PII or confidential information.\nHave data citation.\nGet DOI?\n\n\nData archives to consider:\n\nNOAA Big Data Program\nAnimal Telemetry Network (ATN)\nOBIS SEAMAP\nNCEI\nArcGIS online\nGitHub (size limitations)\nWith manuscript"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#discover-example-1-agol",
+    "href": "DataManagementAccessible.html#discover-example-1-agol",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Discover: Example #1 (AGOL)",
+    "text": "Discover: Example #1 (AGOL)\nData Portal (for sharing data with AK Regional Office)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#discover-example-2-shiny-app",
+    "href": "DataManagementAccessible.html#discover-example-2-shiny-app",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Discover: Example #2 (Shiny App)",
+    "text": "Discover: Example #2 (Shiny App)\nInteractive application (for exploring harbor seal abundance estimates)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#preservediscover-take-away-actions",
+    "href": "DataManagementAccessible.html#preservediscover-take-away-actions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Preserve/Discover: Take-away Actions",
+    "text": "Preserve/Discover: Take-away Actions\n\n\n\nStart Small\n\nShare a new (small) dataset (that was not previously available).\n\nHappy Medium\n\nShare a new dataset with the AKRO through the ArcGIS online portal.\n\nBring It On!\n\nDevelop custom portals for viewing and interacting with your data."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#integrateanalyze",
+    "href": "DataManagementAccessible.html#integrateanalyze",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Integrate/Analyze",
+    "text": "Integrate/Analyze\n\n\n\n\nFor an analyses, you might be working with a single data set or integrating a number of datasets (e.g. sightings and environmental covariates).\nThings to consider:\n\nIdentify and document those data within the documentation of the new derived data set.\nMake the extraction and integration of the data reproducible (e.g. stored query, stored output, programmatic extraction).\nEnsure any “quirks” in the data that are clearly understood by those analyzing the data, if that’s not you.\nThink early about how you’re going to share data and/or code for the analysis."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#integrate-example-1-getting-data",
+    "href": "DataManagementAccessible.html#integrate-example-1-getting-data",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Integrate: Example #1 (getting data)",
+    "text": "Integrate: Example #1 (getting data)\nR package (to simplify and ensure consistent retrieval from the database)"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#integrateanalyze-take-away-actions",
+    "href": "DataManagementAccessible.html#integrateanalyze-take-away-actions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Integrate/Analyze: Take-away Actions",
+    "text": "Integrate/Analyze: Take-away Actions\n\n\nStart Small\n\nMake a folder for storing all the data products (and maybe code) for an analysis.\n\nHappy Medium\n\nBrainstorm a new way to work through an analyses with these considerations with a colleague.\n\nBring It On!\n\nUse Git for storing all the data products (and maybe code) for an analysis.\nDevelop an R package detailing the analyses (for code someone else might use)."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#aerial-harbor-seal-surveys-example",
+    "href": "DataManagementAccessible.html#aerial-harbor-seal-surveys-example",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Aerial Harbor Seal Surveys Example…",
+    "text": "Aerial Harbor Seal Surveys Example…\n\nRegular standing data-related meetings throughout the year for planning/reviewing/ processing. After one field effort and before the next, evaluate any changes needed for data collection.\nSurvey areas are stored in the database for archive and tracking.\nData collection is standardized year-to-year, so import/data entry into the database is seamless. And the database is designed such that the fields are atomized and the structure is adaptable.\nThe counting process works directly with the DB – allows for immediate QA/QC after counting is complete and for those data to be exported in one simple step for analysis.\nThe analytical results are ingested into the DB, and the only change required for the (future) Shiny app will be a change to the referenced data set.\nInPort metadata records, datasets on NOAA Big Data Platform and ArcGIS online are updated.\nWe start the process again…"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#data-related-positions",
+    "href": "DataManagementAccessible.html#data-related-positions",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Data-related Positions",
+    "text": "Data-related Positions\n\n\nRole is particularly important in the planning and collecting phases of the data management life cycle.\nThe assuring, describing, preserving and discovering phases are the logical places where this role fits into the larger project.\nBy the time the work gets to the integrating and analyzing phases, the person (or people) in this role knows the nuances of the data backwards and forwards.\n\n*Depending on the project/program structure, this might be one person or many people."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#deia-related-to-data-management",
+    "href": "DataManagementAccessible.html#deia-related-to-data-management",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "DEIA-related to Data Management",
+    "text": "DEIA-related to Data Management\nMake data management practices more diverse, equitable, inclusive, and accessible:\n\nTarget users of all technical backgrounds and develop systems that are accommodating to everyone.\n\nRecognize different comfort levels of technology and different ways of doing things.\nDon’t want to leave anyone behind!\nCreate supportive environment for those struggles/challenges.\nMake space for different ideas, perspectives, work styles, learning styles.\n\nAvoid gate-keeping of ideas, processes, workflows, data.\n\nIncrease transparency.\nThink about data management as a complementary process to the research.\nWork with one another – all on the same team moving research efforts forward.\nMake your data openly available.\n\nRecognize this work can be un(der)funded and/or un(der)staffed…"
+  },
+  {
+    "objectID": "DataManagementAccessible.html#reminders",
+    "href": "DataManagementAccessible.html#reminders",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Reminders",
+    "text": "Reminders\nFor data management (and life):\n\nKeep it simple.\nStart where you are. And don’t feel embarrassed or shamed by wherever that is.\nNot everything has to be a “stretch exercise.”\nNot every project/problem/situation will have the same technology solution. Find and use the best technology for the task at hand.\nDon’t compare yourself to other people.\nDon’t be afraid to try new things or fail the first (or first few times) you try something new.\n\nMy data-related nemesis is date/time time zones. I still get them wrong more than I’d like to admit and have to check myself. Every. Single. Time.\n\nCelebrate your successes!\nAsk others for help, if you’re stuck or want a different perspective."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#next-steps",
+    "href": "DataManagementAccessible.html#next-steps",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Next Steps",
+    "text": "Next Steps\n\nThis information can be applied to your individual work or to projects.\n\nFor individual files and information, learn from one another!\nFor projects, this should be a team effort.\n\nNo one person can do all the things.\nBe clear and intentional.\nNone of the examples presented in these slides were done by me in isolation!\n\n\nThis presentation may have been a little or a lot of new information for you.\n\nIf it was not a lot of new information for you, you’re off to a great start! Share your knowledge with your colleagues and help them get more comfortable.\nIf it was a lot of new information for you (and maybe you’re feeling overwhelmed with where to start), pick one thing from one section and give it a try.\n\nI am always happy to talk about data things. Feel free to ask questions, run things by me, etc."
+  },
+  {
+    "objectID": "DataManagementAccessible.html#resources",
+    "href": "DataManagementAccessible.html#resources",
+    "title": "Data Management Made a Little Less Scary",
+    "section": "Resources",
+    "text": "Resources\n\nPEP Data Management Plan\nBiological Observation Data Standardization - A Primer for Data Managers\nDataOne Primer on Data Management\nHarvard Biomedical Data Lifecycle\nNOAA Data Strategy: Maximizing the Value of NOAA Data\nISO 8601 Standards for date/time\n\nThank you to everyone who contributed ideas for helping to formulate parts of this talk!\n\n\n\nMML Seminar Series | Data Management Made a Little Less Scary | Stacie Koslovsky (Hardy)"
+  }
+]

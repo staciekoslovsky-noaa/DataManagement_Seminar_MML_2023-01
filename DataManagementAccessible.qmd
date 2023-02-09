@@ -1,0 +1,959 @@
+---
+title: "Data Management Made a Little Less Scary"
+subtitle: "Strategies to Meet You Where You Are"
+author: "Stacie Koslovsky (Hardy), MML/PEP"
+date: '2023-01-13'
+format: revealjs
+logo: https://www.fisheries.noaa.gov/themes/custom/noaa_components/images/fisheries_header_logo_jul2019.png
+footer: "MML Seminar Series | Data Management Made a Little Less Scary | Stacie Koslovsky (Hardy)"
+---
+
+## Goals for Seminar {.smaller}
+
+-   Define data management and data manager/scientist role.
+
+-   Share concepts and examples.
+
+-   Empower you to take this information back with you into your day-to-day work:
+
+    -   Start Small
+
+    -   Happy Medium
+
+    -   Bring It On!
+
+![](DataManagementAccessible_files/images/data_are_plural.jpg){fig-align="center"}
+
+## 2020 NOAA Data Strategy {.smaller}
+
+::: columns
+::: {.column width="25%"}
+![](DataManagementAccessible_files/images/noaa_data_strategy.png)
+:::
+
+::: {.column width="75%"}
+"Data are at the heart of NOAA's \$5 billion per year enterprise. ... NOAA data are a critical strategic asset used to ensure accountability, manage operations, and to maintain and enhance the performance of the economy, public health, and welfare."
+
+-   **Goal 1**: Align data management leadership roles across the organization.
+
+-   **Goal 2**: Govern and manage data strategically to most effectively steward the US taxpayers' investment.
+
+-   **Goal 3**: Share data as openly and widely as possible to promote maximum utilization of NOAA data.
+
+-   **Goal 4**: Promote data innovation and quality improvements to facilitate science and support data-driven decision making.
+
+-   **Goal 5**: Engage stakeholders and leverage partnerships to maximize the value of NOAA data to the Nation.
+:::
+:::
+
+## Overview {.smaller}
+
+![](http://www.phdcomics.com/comics/archive/phd053104s.gif){fig-align="center"}
+
+The data we collect, manage, and analyze today will continue to be available and used by staff in the future (and outside of NOAA). It is, therefore, important to maintain, organize and share our data in a way that will be useful and meaningful to current-us and future-us.
+
+But, data storage is costly, in terms of space for storing data, space for backing up data, and time for managing, organizing and documenting data, and so on...
+
+*We want to be mindful in our data management strategies and application*.
+
+**At least 50% of data management is people-related.**
+
+## Ideally... {.smaller}
+
+A well-designed data management system will:
+
+-   Make archiving, storing, and retrieving information less difficult and tedious;
+
+-   Ensure the integrity and continuity of record keeping, *despite changes in personnel*;
+
+-   Allow for the easy identification and purging of outdated information;
+
+-   Allow us to more easily share our information...with managers, collaborators, the public;
+
+-   Be foundational;
+
+    -   The technologies we use are ever-changing. Think about the different waves of emerging technologies: GIS, genetics, stable isotopes, machine learning.
+
+    -   We can't predict what will come next, but if we manage our data well, it will be easier to adapt.
+
+-   Be uniform in implementation; and
+
+-   Be expandable and flexible to meet future needs.
+
+## Data Management Life Cycle
+
+```{r, echo = FALSE, warnings = FALSE, height = 5, fig.cap="Adopted from DataOne."}
+library(DiagrammeR)
+
+grViz("digraph flowchart {
+      # node definitions with substituted label text
+      node [fontname = Arial, shape = rectangle, penwidth = 3]        
+      tab1 [label = '@@1', color = MediumVioletRed]
+      tab2 [label = '@@2', color = Tomato]
+      tab3 [label = '@@3', color = Gold]
+      tab4 [label = '@@4', color = YellowGreen]
+      tab5 [label = '@@5', color = DarkOliveGreen]
+      tab6 [label = '@@6', color = CadetBlue]
+      tab7 [label = '@@7', color = Navy]
+
+      # edge definitions with the node IDs
+      tab1 -> tab2;
+      tab2 -> tab3;
+      tab3 -> tab4;
+      tab4 -> tab5;
+      tab5 -> tab6;
+      tab6 -> tab7;
+      tab7 -> tab1;
+      }
+
+      [1]: 'Plan (as best and as much as you can)'
+      [2]: 'Collect (the fun part, most of the time)'
+      [3]: 'Assure (quality assurance and control)'
+      [4]: 'Describe (data documentation)'
+      [5]: 'Preserve (at data center or archive)'
+      [6]: 'Discover (make your data findable)'
+      [7]: 'Integrate and Analyze (you know this part better than me)'
+      ")
+```
+
+## Data Management Life Cycle
+
+```{r, echo = FALSE, warnings = FALSE, height = 5, fig.cap="Updated to reflect common practices."}
+grViz("digraph flowchart {
+      # node definitions with substituted label text
+      node [fontname = Arial, shape = rectangle, penwidth = 3]        
+      tab1 [label = '@@1', color = MediumVioletRed]
+      tab2 [label = '@@2', color = Tomato]
+      tab3 [label = '@@3', color = Gold]
+      tab4 [label = '@@4', color = YellowGreen]
+      tab5 [label = '@@5', color = DarkOliveGreen]
+      tab6 [label = '@@6', color = CadetBlue]
+      tab7 [label = '@@7', color = Navy]
+
+      # edge definitions with the node IDs
+      tab1 -> tab2;
+      tab2 -> tab3;
+      tab2 -> tab7 [color = Orange, penwidth = 4];
+      tab3 -> tab4;
+      tab3 -> tab1;
+      tab3 -> tab7;
+      tab4 -> tab5;
+      tab5 -> tab6;
+      tab6 -> tab7;
+      tab7 -> tab1;
+      tab7 -> tab4;
+      tab7 -> tab2  [color = Red, penwidth = 4];
+      tab2 -> tab7  [color = Red, penwidth = 4];
+      }
+
+      [1]: 'Plan (as best and as much as you can)'
+      [2]: 'Collect (the fun part, most of the time)'
+      [3]: 'Assure (quality assurance and control)'
+      [4]: 'Describe (data documentation)'
+      [5]: 'Preserve (at data center or archive)'
+      [6]: 'Discover (make your data findable)'
+      [7]: 'Integrate and Analyze (you likely know this part better than me)'
+      ")
+```
+
+## Plan {.smaller}
+
+-   Start your project and research off with good planning and design.
+
+-   Data management is just *one* part of this early planning (and the only focus of this presentation).
+
+-   Early planning takes a lot of work, but working through all these steps from the beginning will save you *so much* time later.
+
+![](DataManagementAccessible_files/images/planning.jpg){fig-align="center"}
+
+## Plan: Things to Consider {.smaller}
+
+-   What data will be generated? What data need to be gathered from other places (within your program, within MML, from outside sources)?
+
+-   Where will data for the project be stored (on the network, in a database, on Google Drive, etc.)?
+
+    -   How will the data be organized? What does the folder structure look like? How will files be named?
+
+    -   What does the database structure look like? How will data be entered or imported?
+
+-   How will information about the data be preserved? (GitHub, meeting notes, important decisions, etc.)
+
+-   How will the data move through all the subsequent steps (collection, assurance, description, preservation, discovery, integration and analysis)?
+
+-   Who is responsible for doing what? (an important one!)
+
+## Plan: Folder Organization Ideas {.smaller}
+
+::: columns
+::: {.column .smaller width="70%"}
+-   Consider how to organize folders (by date, project, species).
+
+    -   Create folders with a top-down hierarchy.
+
+    -   Organize images separately.
+
+    -   Don't store final data only on your laptop!
+
+-   If you're going to do a big reorganization, consider deleting and archiving things first.
+
+-   For program-wide efforts, work together as a team to come up with different ways to store data, test out some mock-ups, and settle on a solution that works best for the group.
+
+-   Establish a system for version control (e.g. file-naming, Git). Not everything needs version control. Delete obsolete versions of files.
+
+-   Maintain whatever system you come up with -- check in, adjust it, and clean it up annually.
+:::
+
+::: {.column width="30%"}
+![](https://imgs.xkcd.com/comics/old_files.png)
+:::
+:::
+
+## Plan: Folder Organization: Personal {.smaller}
+
+::: columns
+**Personal File Management** (could be on computer or in user's folder)
+
+![](DataManagementAccessible_files/images/sample_folder_structure_personal.png){fig-align="center"}
+:::
+
+## Plan: Folder Organization: Program {.smaller}
+
+::: columns
+::: {.column width="33%"}
+**Main Folder Structure**
+
+![](DataManagementAccessible_files/images/sample_folder_network_1.png)
+:::
+
+::: {.column width="33%"}
+**Subfolders within...Data**
+
+![](DataManagementAccessible_files/images/sample_folder_network_2.png)
+:::
+
+::: {.column width="33%"}
+**...ProgramMgmt & Projects**
+
+![](DataManagementAccessible_files/images/sample_folder_network_3.png)
+:::
+:::
+
+## Plan: Google Drive Organization...oof {.smaller}
+
+There are two camps here (and I've highlighted some considerations for each):
+
+-   Let your files be (exist wherever they exist) and share as-needed.
+
+    -   Requires little to no folder organization overhead.
+
+    -   Relies on the search functionality within Google Drive to find things.
+
+-   Organize your files like you would a folder structure on the network or on your computer.
+
+    -   Simpler for on-boarding new staff (who may not know what to search for).
+
+    -   Can provide a more clear framework for groups working together.
+
+    -   More overhead required for managing files.
+
+For larger groups (at the program- or project-scale), I'd recommend organizing a centralized folder system and sharing within that, but either way, it's a good conversation to have.
+
+## Plan: Google Drive Organization {.smaller}
+
+**PEP Centralized Google Drive Folder Structure**
+
+![](DataManagementAccessible_files/images/pepGoogleDrive.png){fig-align="center"}
+
+**LAN vs Google Drive**
+
+-   I can't tell you what is best for you or your project or your program.
+
+-   This should be a group discussion and decision.
+
+-   Document this for yourself and future users (read_me file, project manual, etc.)
+
+## Plan: File Naming {.smaller}
+
+::: columns
+::: {.column width="33%"}
+![](https://imgs.xkcd.com/comics/documents.png)
+:::
+
+::: {.column .smaller width="67%"}
+File names ideally describe the project, file contents, location, and date -- and should be unique enough to stand alone as file descriptions.
+
+**File names should be**:
+
+-   Human-readable
+
+-   Machine-readable
+
+-   Plays well with default ordering (!)
+
+    -   This may mean different solutions for different projects/reasons.
+    -   Order by date, number, name, etc.
+    -   Most general to most specific.
+
+-   Same rules apply to folder names!
+:::
+:::
+
+## Plan: File Naming Conventions {.smaller}
+
+-   File names should be unique, simple, SHORT, and readable.
+
+-   Avoid using spaces. Alternative ways to break up file naming without spaces: CamelCase, lowerCamelCase, snake_case, CamelCase_PlusSnakeCase.
+
+-   Use only alpha-numeric characters. Avoid special characters.
+
+-   Use leading zeros with the numbers 0-9 for better sorting (e.g., 01, 02, 11, 12).
+
+-   Dates should formatted to support logical default ordering.
+
+-   Avoid unclear names like last, final2, final revised, etc.
+
+::: columns
+::: {.column width="50%"}
+**Don't's**
+
+-   Plan 1.docx
+
+-   Project_DataMgmtPlan\_*longDetails*.docx
+
+-   01JAN2023 or 1-1-2023
+:::
+
+::: {.column width="50%"}
+**Do's**
+
+-   Project_DataMgmtPlan_v01.docx
+
+-   Project_DataMgmtPlan_ShorterDetails.docx
+
+-   20230101 or 2023-01-01 or 2023_01_01
+:::
+:::
+
+## Plan: Date/Time Formats {.smaller}
+
+::: columns
+::: {.column width="40%"}
+![](https://imgs.xkcd.com/comics/iso_8601.png){width="350"}
+:::
+
+::: {.column width="60%"}
+-   In data and in folder/file names, dates should formatted to meet ISO 8601 standards:
+
+    -   YYYY-MM-DD
+
+    -   YYYYMMDD
+
+    -   YYYY-MM
+
+    -   YYYY-Www (e.g. 2023-W03) if you use week data
+
+    -   Thh:mm:ss.sss (using the 24-hour clock system)
+
+-   We work across time zones, which makes data collection and management particularly complicated. Consider standardizing date/time data to GMT.
+:::
+:::
+
+## Plan: Reproducibility {.smaller}
+
+::: columns
+::: {.column width="60%"}
+Think about how you're going to...
+
+-   Process and document your data processing steps.
+
+    -   Code is a really nice way to do this. It also saves you time later, if you have to redo anything.
+
+    -   If that's scary or not in your toolkit, writing down the (detailed) steps in a (shared) document is also totally okay.
+
+-   Archive versions of the data used for analyses, if they cannot be otherwise recreated.
+
+-   Come up with a plan for what you need to do with your data to meet PARR requirements. Do this early, and it becomes an easy box-checking exercise later.
+:::
+
+::: {.column width="40%"}
+![](https://imgs.xkcd.com/comics/is_it_worth_the_time.png)
+:::
+:::
+
+## Plan: Take-away Actions {.smaller}
+
+::: columns
+::: {.column width="70%"}
+**Start Small**
+
+-   Pick one thing that you think would be most beneficial for you to try. Build incrementally.
+
+-   Don't try to do everything all at once or go back through all your older work. Start small with something new(ish).
+
+**Happy Medium**
+
+-   Work with other members of your project/program to start to bring more of these measures into your work.
+
+**Bring It On!**
+
+-   Develop a comprehensive data management plan for your project/program.
+
+-   Use common planning and structures across program projects.
+
+-   Clean up and reorganize your own/project/program file organization.
+:::
+
+::: {.column width="30%"}
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+:::
+:::
+
+## Collect {.smaller}
+
+How you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!
+
+-   Use consistent methods for collecting data.
+
+    -   Set up a template for data storage.
+
+    -   Use datasheets or cloud-based data recording systems that mirror how data will be stored later.
+
+    -   Use the same format year-to-year, changing as little as possible.
+
+-   Use consistent data organization:
+
+    -   Wide format (spreadsheet format): each row represents a complete entry.
+
+    -   Long format (database format): one column defines the parameter and one column stores the value of the parameter; makes data easier to migrate to a database later!
+
+    -   Color-coding in spreadsheets is *great* for visualization...but it's not a substitute for organizing your data properly.
+
+## Collect {.smaller}
+
+How you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!
+
+-   Atomize data (make sure there is only one piece of information in each row/column entry).
+
+    -   Don't store multiple bits of information in the same field.
+
+    -   Comments fields are okay, but if you're going to need to mine them later for more information, save yourself the extra work from the beginning...
+
+-   Keep your raw data raw. Preserve it, imperfections and all.
+
+    -   Use a separate process to clean the data, ideally scripted to make the process reproducible (more to come on this in the Assure section).
+
+    -   Work off the cleaned version of the data.
+
+-   Import raw or manually enter data into a database!
+
+## Collect: Data Collection Template
+
+::: columns
+::: {.column width="50%"}
+<div>
+
+**Main Folder Structure**
+
+![](DataManagementAccessible_files/images/coastal_data_1.png)
+
+</div>
+:::
+
+::: {.column width="50%"}
+<div>
+
+**Subfolder Structure**
+
+![](DataManagementAccessible_files/images/coastal_data_2.png)
+
+</div>
+:::
+:::
+
+## Collect: Wide vs Long Formats
+
+::: columns
+::: {.column width="50%"}
+**Wide Format**
+
+![](DataManagementAccessible_files/images/sample_results_wide.png)
+:::
+
+::: {.column width="50%"}
+**Long Format** (preferred)
+
+![](DataManagementAccessible_files/images/sample_results_long.png)
+:::
+:::
+
+## Collect: Measurements + Units {.smaller}
+
+-   If you're storing the data in a wide format (each measurement type gets it's own field)...
+
+    -   AND all the measurements are in the same unit, store the unit at the end of the field name (e.g. length_m).
+
+    -   AND the measurements are collected in different units, you could easily get yourself in trouble. Either (preferably) convert to all the same units and name the field accordingly (with units at the end) OR create another field in which you store the associated units.
+
+-   If you're storing the data in a long format (all measurements in the same field, with another field indicating the measurement type), either create a measurement unit field OR (in a database) related the measurements to a measurement type lookup table and store the unit information there.
+
+## Collect: Archive/Storage {.smaller}
+
+::: columns
+::: {.column width="70%"}
+-   Store data in non-proprietary formats (when possible) that are easy to work with in programming software:
+
+    -   CSV
+
+    -   Text files
+
+    -   Database - benefit of related data and lookup values
+
+        -   PostgreSQL / SQL Server / Azure
+
+        -   Geodatabases
+
+-   Avoid long field names.
+
+-   Avoid using special characters and spaces in field names.
+
+-   Store spatial data in appropriate projections. Decimal degrees in WGS-84 are a good default option.
+:::
+
+::: {.column width="30%"}
+**PEP Database Schemas**
+
+![](DataManagementAccessible_files/images/database_schemas.png)
+:::
+:::
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**PostgreSQL Database Structure** (data are atomized within fields and link across tables)
+
+![](DataManagementAccessible_files/images/glacial_backEnd.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Data Entry Forms** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_dataEntry.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Process Tracking** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_processTracking.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Dataset Tracking** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_datasetTracking.png){fig-align="center"}
+
+## Collect: Take-away Actions {.smaller}
+
+::: columns
+::: {.column width="70%"}
+**Start Small**
+
+-   Rethink how you collect and store data while in the field.
+
+-   Come up with a more standardized folder structure and file naming approach.
+
+**Happy Medium**
+
+-   Migrate your data to a long data format.
+
+-   Re-evaluate datasheets and other data collection strategies.
+
+**Bring It On!**
+
+-   Migrate data to a database.
+
+-   Develop cloud-based data collection tools for the field.
+
+-   Automate data collection, where possible.
+:::
+
+::: {.column width="30%"}
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+:::
+:::
+
+## Assure {.smaller}
+
+::: columns
+::: {.column width="70%"}
+This is an easy step to overlook. Doing it well takes time...
+
+**Things to look at in your data**:
+
+-   Consistency in values throughout data collection.
+
+-   Reasonable min-max, average, range values for each field (query-based or graphically).
+
+-   Missing data.
+
+-   Large gaps in data (spatial or temporal bias?).
+
+-   Double-checking data that were manually entered.
+
+-   Logical checks.
+
+-   Assign quality flags to records to "remove" bad records.
+
+**Skipping this step can be catastrophic...**
+:::
+
+::: {.column width="30%"}
+![](https://imgs.xkcd.com/comics/assigning_numbers.png)
+:::
+:::
+
+## Assure: Example #1 (in-field report) {.smaller}
+
+Review field data to ensure there were no issues with initial data collection...
+
+::: columns
+::: {.column width="50%"}
+![](DataManagementAccessible_files/images/bodyConditionReport_1.png){width="449"}
+:::
+
+::: {.column width="50%"}
+![](DataManagementAccessible_files/images/bodyConditionReport_2.png){width="531"}
+:::
+:::
+
+## Assure: Example #2 (in database) {.smaller}
+
+In a database, tables are where your data are stored. Queries are layers that exist on top of that table that summarize, filter. or order your data...they do *not* make another copy of the data. When your underlying data change, the data in the query also change automatically.
+
+Using queries to standardize extraction and to complete quality checks...
+
+![](DataManagementAccessible_files/images/database_queries.png){fig-align="center"}
+
+## Assure: Take-away Actions {.smaller}
+
+::: columns
+::: {.column width="70%"}
+**Start Small**
+
+-   Review data/datasheets in the field to catch problems early.
+
+-   Think of some *new* ways to quality check your data (e.g., figures in Excel, manual review).
+
+**Happy Medium**
+
+-   Assure quality data *before* you collect or enter data (e.g., drop-down menus in a spreadsheet/database).
+
+-   Identify ways to differentiate missing and NULL values.
+
+**Bring It On!**
+
+-   Develop a systematic and automated quality assurance process to run on data after data collection (e.g. database queries, reports generated in R).
+:::
+
+::: {.column width="30%"}
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+:::
+:::
+
+## Describe {.smaller}
+
+::: columns
+::: {.column width="70%"}
+This is another step that takes a lot of time to do well, but your future self will be really appreciative of your current self doing a thorough job.
+
+-   Describe the data organization.
+
+-   Describe who did what and the appropriate contact information.
+
+-   Describe the scientific context.
+
+-   Describe the data and parameters.
+
+This is doesn't just have to be done in InPort.
+
+\*\*Any *dataset* metadata records created in InPort are required to have their data available online **within one year** of when the metadata record was created. This does not apply to project-level metadata records (FYI).\*\*
+:::
+
+::: {.column width="30%"}
+![](https://imgs.xkcd.com/comics/every_data_table.png)
+:::
+:::
+
+## Describe: Example #1 (InPort) {.smaller}
+
+**PEP Metadata Repository**
+
+![](DataManagementAccessible_files/images/inPort.png){fig-align="center"}
+
+## Describe: Example #2 (dashboard) {.smaller}
+
+**Project management tracking within PEP dashboard**
+
+![](DataManagementAccessible_files/images/pep_dashboard.png){fig-align="center"}
+
+## Describe: Example #3 (GitHub) {.smaller}
+
+**Project management on GitHub** (developed by Josh London)
+
+![](DataManagementAccessible_files/images/gitHub_harborSeals.png){fig-align="center"}
+
+## Describe: Take-away Actions {.smaller}
+
+::: columns
+::: {.column width="70%"}
+<div>
+
+**Start Small**
+
+-   Start a shared document for tracking processing steps.
+-   Start an on-going meeting notes document.
+
+**Happy Medium**
+
+-   Develop a Google Space for sharing information (rather than through email).
+
+-   Use Google Tasks to track work.
+
+**Bring It On!**
+
+-   Project and issue tracking on GitHub.
+-   Develop project/program-wide method for tracking information.
+
+</div>
+:::
+
+::: {.column width="30%"}
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+:::
+:::
+
+## Preserve/Discover {.smaller}
+
+::: columns
+-   Want to share data and make it find-able!
+-   Find the archive location that makes the *most sense* for your data.
+-   At a minimum, sharing your data online meets PARR requirements...but this can also be a really cool way to highlight or showcase a particular research project.
+
+::: {.column width="50%"}
+**Data preserving considerations**:
+
+-   Identify what best to share.
+
+-   Use standard terminology (where applicable).
+
+-   Remove any PII or confidential information.
+
+-   Have data citation.
+
+-   Get DOI?
+:::
+
+::: {.column width="50%"}
+**Data archives to consider**:
+
+-   NOAA Big Data Program
+
+-   Animal Telemetry Network (ATN)
+
+-   OBIS SEAMAP
+
+-   NCEI
+
+-   ArcGIS online
+
+-   GitHub (size limitations)
+
+-   With manuscript
+:::
+:::
+
+## Discover: Example #1 (AGOL) {.smaller}
+
+**Data Portal** (for sharing data with AK Regional Office)
+
+![](DataManagementAccessible_files/images/agol.png){fig-align="center"}
+
+## Discover: Example #2 (Shiny App) {.smaller}
+
+**Interactive application** (for exploring harbor seal abundance estimates)
+
+![](DataManagementAccessible_files/images/coastalPv_ShinyApp.png)
+
+## Preserve/Discover: Take-away Actions {.smaller}
+
+::: columns
+::: {.column width="70%"}
+::: {.column width="70%"}
+**Start Small**
+
+-   Share a new (small) dataset (that was not previously available).
+
+**Happy Medium**
+
+-   Share a new dataset with the AKRO through the ArcGIS online portal.
+
+**Bring It On!**
+
+-   Develop custom portals for viewing and interacting with your data.
+:::
+:::
+
+::: {.column width="30%"}
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+:::
+:::
+
+## Integrate/Analyze {.smaller}
+
+::: columns
+::: {.column width="30%"}
+![](https://imgs.xkcd.com/comics/data_point.png)
+:::
+
+::: {.column width="70%"}
+For an analyses, you might be working with a single data set or integrating a number of datasets (e.g. sightings and environmental covariates).
+
+**Things to consider**:
+
+-   Identify and document those data within the documentation of the new derived data set.
+
+-   Make the extraction and integration of the data reproducible (e.g. stored query, stored output, programmatic extraction).
+
+-   Ensure any "quirks" in the data that are clearly understood by those analyzing the data, if that's not you.
+
+-   Think early about how you're going to share data and/or code for the analysis.
+:::
+:::
+
+## Integrate: Example #1 (getting data) {.smaller}
+
+**R package** (to simplify and ensure consistent retrieval from the database)
+
+![](DataManagementAccessible_files/images/pepDataConnect.png){fig-align="center"}
+
+## Integrate/Analyze: Take-away Actions {.smaller}
+
+::: columns
+::: {.column width="70%"}
+**Start Small**
+
+-   Make a folder for storing all the data products (and maybe code) for an analysis.
+
+**Happy Medium**
+
+-   Brainstorm a new way to work through an analyses with these considerations with a colleague.
+
+**Bring It On!**
+
+-   Use Git for storing all the data products (and maybe code) for an analysis.
+
+-   Develop an R package detailing the analyses (for code someone else might use).
+:::
+
+::: {.column width="30%"}
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+:::
+:::
+
+## Aerial Harbor Seal Surveys Example... {.smaller}
+
+1.  Regular standing data-related meetings throughout the year for planning/reviewing/ processing. After one field effort and before the next, evaluate any changes needed for data collection.
+
+2.  Survey areas are stored in the database for archive and tracking.
+
+3.  Data collection is standardized year-to-year, so import/data entry into the database is seamless. And the database is designed such that the fields are atomized and the structure is adaptable.
+
+4.  The counting process works directly with the DB -- allows for immediate QA/QC after counting is complete and for those data to be exported in one simple step for analysis.
+
+5.  The analytical results are ingested into the DB, and the only change required for the (future) Shiny app will be a change to the referenced data set.
+
+6.  InPort metadata records, datasets on NOAA Big Data Platform and ArcGIS online are updated.
+
+7.  We start the process again...
+
+## Data-related Positions {.smaller}
+
+![](DataManagementAccessible_files/images/hierarchy_of_needs.png){fig-align="center"}
+
+-   Role is particularly important in the **planning** and **collecting** phases of the data management life cycle.
+
+-   The **assuring**, **describing**, **preserving** and **discovering** phases are the logical places where this role fits into the larger project.
+
+-   By the time the work gets to the **integrating** and **analyzing** phases, the person (or people) in this role knows the nuances of the data backwards and forwards.
+
+\*Depending on the project/program structure, this might be one person or many people.
+
+## DEIA-related to Data Management {.smaller}
+
+Make data management practices more diverse, equitable, inclusive, and accessible:
+
+-   Target users of all technical backgrounds and develop systems that are accommodating to everyone.
+
+    -   Recognize different comfort levels of technology and different ways of doing things.
+    -   Don't want to leave anyone behind!
+    -   Create supportive environment for those struggles/challenges.
+    -   Make space for different ideas, perspectives, work styles, learning styles.
+
+-   Avoid gate-keeping of ideas, processes, workflows, data.
+
+    -   Increase transparency.
+    -   Think about data management as a complementary process to the research.
+    -   Work with one another -- all on the same team moving research efforts forward.
+    -   Make your data openly available.
+
+-   Recognize this work can be un(der)funded and/or un(der)staffed...
+
+## Reminders {.smaller}
+
+For data management (and life):
+
+-   Keep it simple.
+
+-   Start where you are. And *don't* feel embarrassed or shamed by wherever that is.
+
+-   Not everything has to be a "stretch exercise."
+
+-   Not every project/problem/situation will have the same technology solution. Find and use the best technology for the task at hand.
+
+-   Don't compare yourself to other people.
+
+-   Don't be afraid to try new things or fail the first (or first few times) you try something new.
+
+    -   My data-related nemesis is date/time time zones. I *still* get them wrong more than I'd like to admit and have to check myself. Every. Single. Time.
+
+-   Celebrate your successes!
+
+-   Ask others for help, if you're stuck or want a different perspective.
+
+## Next Steps {.smaller}
+
+-   This information can be applied to your individual work or to projects.
+
+    -   For individual files and information, learn from one another!
+    -   For projects, this should be a team effort.
+        -   No one person can do all the things.
+
+        -   Be clear and intentional.
+
+        -   None of the examples presented in these slides were done by me in isolation!
+
+-   This presentation may have been a little or a lot of new information for you.
+
+    -   If it was not a lot of new information for you, you're off to a great start! Share your knowledge with your colleagues and help them get more comfortable.
+    -   If it was a lot of new information for you (and maybe you're feeling overwhelmed with where to start), pick one thing from one section and give it a try.
+
+-   I am *always* happy to talk about data things. Feel free to ask questions, run things by me, etc.
+
+## Resources {.smaller}
+
+-   [PEP Data Management Plan](https://github.com/staciekoslovsky-noaa/PEP_Admin/blob/main/PEP_DataMgmtPlan.qmd)
+-   [Biological Observation Data Standardization - A Primer for Data Managers](https://esip.figshare.com/articles/online_resource/Biological_Observation_Data_Standardization_-_A_Primer_for_Data_Managers/16806712/2)
+-   [DataOne Primer on Data Management](https://repository.oceanbestpractices.org/bitstream/handle/11329/502/DataONE_BP_Primer_020212.pdf)
+-   [Harvard Biomedical Data Lifecycle](https://datamanagement.hms.harvard.edu/plan-design/biomedical-data-lifecycle)
+-   [NOAA Data Strategy: Maximizing the Value of NOAA Data](https://sciencecouncil.noaa.gov/Portals/0/2020%20Data%20Strategy.pdf?ver=2020-09-17-150024-997)
+-   [ISO 8601 Standards for date/time](https://en.wikipedia.org/wiki/ISO_8601#Dates)
+
+Thank you to everyone who contributed ideas for helping to formulate parts of this talk!
