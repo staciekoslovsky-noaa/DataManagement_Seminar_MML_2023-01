@@ -10,9 +10,9 @@
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.3.450">
 
-  <meta name="author" content="Stacie Koslovsky, MML/PEP">
-  <meta name="dcterms.date" content="2023-01-13">
-  <title>Data Management Made a Little Less Scary</title>
+  <meta name="author" content="Stacie Koslovsky, AFSC/MML/PEP">
+  <meta name="dcterms.date" content="2025-08-19">
+  <title>Making Data Management Accessible</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -320,33 +320,34 @@
       margin-right: 0; 
     }
   </style>
-  <script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+  <link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+  <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
   <script src="site_libs/viz-1.8.2/viz.js"></script>
   <link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet">
-  <script src="site_libs/grViz-binding-1.0.10/grViz.js"></script>
+  <script src="site_libs/grViz-binding-1.0.11/grViz.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Data Management Made a Little Less Scary</h1>
+  <h1 class="title">Making Data Management Accessible</h1>
   <p class="subtitle">Strategies to Meet You Where You Are</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Stacie Koslovsky, MML/PEP 
+Stacie Koslovsky, AFSC/MML/PEP 
 </div>
 </div>
 </div>
 
-  <p class="date">2023-01-13</p>
+  <p class="date">2025-08-19</p>
 </section>
-<section id="goals-for-seminar" class="slide level2 smaller">
-<h2>Goals for Seminar</h2>
+<section id="goals-for-workshop" class="slide level2 smaller">
+<h2>Goals for Workshop</h2>
 <ul>
-<li><p>Define data management and data manager/scientist role.</p></li>
+<li><p>Define data management workflowand data manager/scientist role.</p></li>
 <li><p>Share concepts and examples.</p></li>
 <li><p>Empower you to take this information back with you into your day-to-day work:</p>
 <ul>
@@ -354,14 +355,15 @@ Stacie Koslovsky, MML/PEP
 <li><p>Happy Medium</p></li>
 <li><p>Bring It On!</p></li>
 </ul></li>
+<li><p>Break-out rooms + discussion for applying some of these concepts</p></li>
 </ul>
 
-<img data-src="DataManagementAccessible_files/images/data_are_plural.jpg" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/data_are_plural.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="noaa-data-strategy" class="slide level2 smaller">
 <h2>2020 NOAA Data Strategy</h2>
 <div class="columns">
 <div class="column" style="width:25%;">
-<p><img data-src="DataManagementAccessible_files/images/noaa_data_strategy.png"></p>
+<p><img data-src="images/noaa_data_strategy.png"></p>
 </div><div class="column" style="width:75%;">
 <p>“Data are at the heart of NOAA’s $5 billion per year enterprise. … NOAA data are a critical strategic asset used to ensure accountability, manage operations, and to maintain and enhance the performance of the economy, public health, and welfare.”</p>
 <ul>
@@ -373,6 +375,11 @@ Stacie Koslovsky, MML/PEP
 </ul>
 </div>
 </div>
+</section>
+<section id="noaa-data-management-handbook" class="slide level2 smaller">
+<h2>NOAA Data Management Handbook</h2>
+
+<img data-src="images/noaa_data_workflow-01.png" style="width:100.0%" class="r-stretch quarto-figure-center"><p>Published in 2024, “this Handbook is designed to provide NOAA data practitioners the requirements, metrics, and procedures and/or best practices to follow in alignment with the laws, regulations, memoranda, and strategic plans. … The procedures apply to all NOAA Line Offices and Staff Offices, including affiliates and grantees funded with NOAA resources.”</p>
 </section>
 <section id="overview" class="slide level2 smaller">
 <h2>Overview</h2>
@@ -399,12 +406,23 @@ Stacie Koslovsky, MML/PEP
 <li><p>Be expandable and flexible to meet future needs.</p></li>
 </ul>
 </section>
+<section id="staff-engagement" class="slide level2 smaller">
+<h2>Staff Engagement</h2>
+<p>How do we come together as a team to engage in data management most effectively?&nbsp;</p>
+<ul>
+<li><p>Recognizing and appreciating <strong>our different skills, technical abilities, ideas, backgrounds, and ways of learning</strong> (among many other things)</p></li>
+<li><p>Ensuring data practices <strong>promote fair, just and beneficial outcomes for all individuals and projects</strong></p></li>
+<li><p>Ensuring that data collection, storage, and analysis <strong>processes actively consider</strong> our perspectives, experiences, and skills (in our case, largely focused on ensuring this for how we collect and store data, trainings on those processes, etc.)</p></li>
+<li><p>The data and the information about the <strong>data are accessible</strong> to staff to use</p></li>
+<li><p><strong>Staff feel accepted and supported</strong> in projects and within program</p></li>
+</ul>
+</section>
 <section id="data-management-life-cycle" class="slide level2">
 <h2>Data Management Life Cycle</h2>
 <div class="cell" data-warnings="false" height="5">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1bf56ee0b539757ea505" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-1bf56ee0b539757ea505">{"x":{"diagram":"digraph flowchart {\n      # node definitions with substituted label text\n      node [fontname = Arial, shape = rectangle, penwidth = 3]        \n      tab1 [label = \"Plan (as best and as much as you can)\", color = MediumVioletRed]\n      tab2 [label = \"Collect (the fun part, most of the time)\", color = Tomato]\n      tab3 [label = \"Assure (quality assurance and control)\", color = Gold]\n      tab4 [label = \"Describe (data documentation)\", color = YellowGreen]\n      tab5 [label = \"Preserve (at data center or archive)\", color = DarkOliveGreen]\n      tab6 [label = \"Discover (make your data findable)\", color = CadetBlue]\n      tab7 [label = \"Integrate and Analyze (you know this part better than me)\", color = Navy]\n\n      # edge definitions with the node IDs\n      tab1 -> tab2;\n      tab2 -> tab3;\n      tab3 -> tab4;\n      tab4 -> tab5;\n      tab5 -> tab6;\n      tab6 -> tab7;\n      tab7 -> tab1;\n      }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-1319f50936430b778483" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-1319f50936430b778483">{"x":{"diagram":"digraph flowchart {\n      # node definitions with substituted label text\n      node [fontname = Arial, shape = rectangle, penwidth = 3]        \n      tab1 [label = \"Plan (as best and as much as you can)\", color = MediumVioletRed]\n      tab2 [label = \"Obtain/Collect (the fun part, most of the time)\", color = Tomato]\n      tab3 [label = \"Process/Assure (quality assurance and control)\", color = Gold]\n      tab4 [label = \"Describe (data documentation)\", color = YellowGreen]\n      tab5 [label = \"Preserve (at data center or archive)\", color = DarkOliveGreen]\n      tab6 [label = \"Discover (make your data findable)\", color = CadetBlue]\n      tab7 [label = \"Integrate/Analyze (you know this part better than me)\", color = Navy]\n\n      # edge definitions with the node IDs\n      tab1 -> tab2;\n      tab2 -> tab3;\n      tab3 -> tab4;\n      tab4 -> tab5;\n      tab5 -> tab6;\n      tab6 -> tab7;\n      tab7 -> tab1;\n      }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <p>Adopted from DataOne.</p>
 </div>
 </div>
@@ -413,12 +431,20 @@ Stacie Koslovsky, MML/PEP
 <h2>Data Management Life Cycle</h2>
 <div class="cell" data-warnings="false" height="5">
 <div class="cell-output-display">
-<div class="grViz html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-6d9c1d0162b3c9e45678" style="width:960px;height:480px;"></div>
-<script type="application/json" data-for="htmlwidget-6d9c1d0162b3c9e45678">{"x":{"diagram":"digraph flowchart {\n      # node definitions with substituted label text\n      node [fontname = Arial, shape = rectangle, penwidth = 3]        \n      tab1 [label = \"Plan (as best and as much as you can)\", color = MediumVioletRed]\n      tab2 [label = \"Collect (the fun part, most of the time)\", color = Tomato]\n      tab3 [label = \"Assure (quality assurance and control)\", color = Gold]\n      tab4 [label = \"Describe (data documentation)\", color = YellowGreen]\n      tab5 [label = \"Preserve (at data center or archive)\", color = DarkOliveGreen]\n      tab6 [label = \"Discover (make your data findable)\", color = CadetBlue]\n      tab7 [label = \"Integrate and Analyze (you likely know this part better than me)\", color = Navy]\n\n      # edge definitions with the node IDs\n      tab1 -> tab2;\n      tab2 -> tab3;\n      tab2 -> tab7 [color = Orange, penwidth = 4];\n      tab3 -> tab4;\n      tab3 -> tab1;\n      tab3 -> tab7;\n      tab4 -> tab5;\n      tab5 -> tab6;\n      tab6 -> tab7;\n      tab7 -> tab1;\n      tab7 -> tab4;\n      tab7 -> tab2  [color = Red, penwidth = 4];\n      tab2 -> tab7  [color = Red, penwidth = 4];\n      }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+<div class="grViz html-widget html-fill-item" id="htmlwidget-6efe362f4d85b44ef2a0" style="width:960px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-6efe362f4d85b44ef2a0">{"x":{"diagram":"digraph flowchart {\n      # node definitions with substituted label text\n      node [fontname = Arial, shape = rectangle, penwidth = 3]        \n      tab1 [label = \"Plan (as best and as much as you can)\", color = MediumVioletRed]\n      tab2 [label = \"Obtain/Collect (the fun part, most of the time)\", color = Tomato]\n      tab3 [label = \"Process/Assure (quality assurance and control)\", color = Gold]\n      tab4 [label = \"Describe (data documentation)\", color = YellowGreen]\n      tab5 [label = \"Preserve (at data center or archive)\", color = DarkOliveGreen]\n      tab6 [label = \"Discover (make your data findable)\", color = CadetBlue]\n      tab7 [label = \"Integrate/Analyze (you know this part better than me)\", color = Navy]\n\n      # edge definitions with the node IDs\n      tab1 -> tab2;\n      tab2 -> tab3;\n      tab2 -> tab7 [color = Orange, penwidth = 4];\n      tab3 -> tab4;\n      tab3 -> tab1;\n      tab3 -> tab7;\n      tab4 -> tab5;\n      tab5 -> tab6;\n      tab6 -> tab7;\n      tab7 -> tab1;\n      tab7 -> tab4;\n      tab7 -> tab2  [color = Red, penwidth = 4];\n      tab2 -> tab7  [color = Red, penwidth = 4];\n      }","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
 <p>Updated to reflect common practices.</p>
 </div>
 </div>
 </section>
+<section id="data-management-is-inclusive" class="slide level2">
+<h2>Data Management is Inclusive</h2>
+
+<img data-src="images/pep_workflow.png" class="r-stretch"></section>
+<section id="workflow-potential-bottlenecks" class="slide level2">
+<h2>Workflow Potential Bottlenecks</h2>
+
+<img data-src="images/pep_bottleneecks.png" class="r-stretch"></section>
 <section id="plan" class="slide level2 smaller">
 <h2>Plan</h2>
 <ul>
@@ -427,7 +453,7 @@ Stacie Koslovsky, MML/PEP
 <li><p>Early planning takes a lot of work, but working through all these steps from the beginning will save you <em>so much</em> time later.</p></li>
 </ul>
 
-<img data-src="DataManagementAccessible_files/images/planning.jpg" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/planning.jpg" class="r-stretch quarto-figure-center"></section>
 <section id="plan-things-to-consider" class="slide level2 smaller">
 <h2>Plan: Things to Consider</h2>
 <ul>
@@ -468,7 +494,7 @@ Stacie Koslovsky, MML/PEP
 <div class="columns">
 <p><strong>Personal File Management</strong> (could be on computer or in user’s folder)</p><div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="DataManagementAccessible_files/images/sample_folder_structure_personal.png"></p>
+<p><img data-src="images/sample_folder_structure_personal.png"></p>
 </figure>
 </div>
 </div>
@@ -478,13 +504,13 @@ Stacie Koslovsky, MML/PEP
 <div class="columns">
 <div class="column" style="width:33%;">
 <p><strong>Main Folder Structure</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/sample_folder_network_1.png"></p>
+<p><img data-src="images/sample_folder_network_1.png"></p>
 </div><div class="column" style="width:33%;">
 <p><strong>Subfolders within…Data</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/sample_folder_network_2.png"></p>
+<p><img data-src="images/sample_folder_network_2.png"></p>
 </div><div class="column" style="width:33%;">
 <p><strong>…ProgramMgmt &amp; Projects</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/sample_folder_network_3.png"></p>
+<p><img data-src="images/sample_folder_network_3.png"></p>
 </div>
 </div>
 </section>
@@ -502,6 +528,7 @@ Stacie Koslovsky, MML/PEP
 <li><p>Simpler for on-boarding new staff (who may not know what to search for).</p></li>
 <li><p>Can provide a more clear framework for groups working together.</p></li>
 <li><p>More overhead required for managing files.</p></li>
+<li><p>New Google Shared Drives are an option for shared spaces without “ownership” by a single individual.</p></li>
 </ul></li>
 </ul>
 <p>For larger groups (at the program- or project-scale), I’d recommend organizing a centralized folder system and sharing within that, but either way, it’s a good conversation to have.</p>
@@ -510,7 +537,7 @@ Stacie Koslovsky, MML/PEP
 <h2>Plan: Google Drive Organization</h2>
 <p><strong>PEP Centralized Google Drive Folder Structure</strong></p>
 
-<img data-src="DataManagementAccessible_files/images/pepGoogleDrive.png" class="r-stretch quarto-figure-center"><p><strong>LAN vs Google Drive</strong></p>
+<img data-src="images/pepGoogleDrive.png" class="r-stretch quarto-figure-center"><p><strong>LAN vs Google Drive</strong></p>
 <ul>
 <li><p>I can’t tell you what is best for you or your project or your program.</p></li>
 <li><p>This should be a group discussion and decision.</p></li>
@@ -582,7 +609,7 @@ Stacie Koslovsky, MML/PEP
 <li><p>YYYY-Www (e.g.&nbsp;2023-W03) if you use week data</p></li>
 <li><p>Thh:mm:ss.sss (using the 24-hour clock system)</p></li>
 </ul></li>
-<li><p>We work across time zones, which makes data collection and management particularly complicated. Consider standardizing date/time data to GMT.</p></li>
+<li><p>Many projects/programs work across time zones, which makes data collection and management particularly complicated. Consider standardizing date/time data to GMT.</p></li>
 </ul>
 </div>
 </div>
@@ -626,13 +653,13 @@ Stacie Koslovsky, MML/PEP
 <li><p>Clean up and reorganize your own/project/program file organization.</p></li>
 </ul>
 </div><div class="column" style="width:30%;">
-<p><img data-src="DataManagementAccessible_files/images/to_do_list.jpg"></p>
+<p><img data-src="images/to_do_list.jpg"></p>
 </div>
 </div>
 </section>
-<section id="collect" class="slide level2 smaller">
-<h2>Collect</h2>
-<p>How you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!</p>
+<section id="obtaincollect" class="slide level2 smaller">
+<h2>Obtain/Collect</h2>
+<p>How you collect and obtain data heavily influences down-stream data processing. Set yourself up for success from the beginning!</p>
 <ul>
 <li><p>Use consistent methods for collecting data.</p>
 <ul>
@@ -648,8 +675,8 @@ Stacie Koslovsky, MML/PEP
 </ul></li>
 </ul>
 </section>
-<section id="collect-1" class="slide level2 smaller">
-<h2>Collect</h2>
+<section id="obtaincollect-1" class="slide level2 smaller">
+<h2>Obtain/Collect</h2>
 <p>How you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!</p>
 <ul>
 <li><p>Atomize data (make sure there is only one piece of information in each row/column entry).</p>
@@ -665,36 +692,36 @@ Stacie Koslovsky, MML/PEP
 <li><p>Import raw or manually enter data into a database!</p></li>
 </ul>
 </section>
-<section id="collect-data-collection-template" class="slide level2">
-<h2>Collect: Data Collection Template</h2>
+<section id="obtaincollect-standardization" class="slide level2">
+<h2>Obtain/Collect: Standardization</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div>
 <p><strong>Main Folder Structure</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/coastal_data_1.png"></p>
+<p><img data-src="images/coastal_data_1.png"></p>
 </div>
 </div><div class="column" style="width:50%;">
 <div>
 <p><strong>Subfolder Structure</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/coastal_data_2.png"></p>
+<p><img data-src="images/coastal_data_2.png"></p>
 </div>
 </div>
 </div>
 </section>
-<section id="collect-wide-vs-long-formats" class="slide level2">
-<h2>Collect: Wide vs Long Formats</h2>
+<section id="obtaincollect-wide-vs-long-formats" class="slide level2">
+<h2>Obtain/Collect: Wide vs Long Formats</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><strong>Wide Format</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/sample_results_wide.png"></p>
+<p><img data-src="images/sample_results_wide.png"></p>
 </div><div class="column" style="width:50%;">
 <p><strong>Long Format</strong> (preferred)</p>
-<p><img data-src="DataManagementAccessible_files/images/sample_results_long.png"></p>
+<p><img data-src="images/sample_results_long.png"></p>
 </div>
 </div>
 </section>
-<section id="collect-measurements-units" class="slide level2 smaller">
-<h2>Collect: Measurements + Units</h2>
+<section id="obtaincollect-measurements-units" class="slide level2 smaller">
+<h2>Obtain/Collect: Measurements + Units</h2>
 <ul>
 <li><p>If you’re storing the data in a wide format (each measurement type gets it’s own field)…</p>
 <ul>
@@ -704,8 +731,8 @@ Stacie Koslovsky, MML/PEP
 <li><p>If you’re storing the data in a long format (all measurements in the same field, with another field indicating the measurement type), either create a measurement unit field OR (in a database) related the measurements to a measurement type lookup table and store the unit information there.</p></li>
 </ul>
 </section>
-<section id="collect-archivestorage" class="slide level2 smaller">
-<h2>Collect: Archive/Storage</h2>
+<section id="obtaincollect-archivestorage" class="slide level2 smaller">
+<h2>Obtain/Collect: Archive/Storage</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
 <ul>
@@ -715,7 +742,7 @@ Stacie Koslovsky, MML/PEP
 <li><p>Text files</p></li>
 <li><p>Database - benefit of related data and lookup values</p>
 <ul>
-<li><p>PostgreSQL / SQL Server / Azure</p></li>
+<li><p>PostgreSQL / SQL Server / Azure / Oracle</p></li>
 <li><p>Geodatabases</p></li>
 </ul></li>
 </ul></li>
@@ -725,32 +752,32 @@ Stacie Koslovsky, MML/PEP
 </ul>
 </div><div class="column" style="width:30%;">
 <p><strong>PEP Database Schemas</strong></p>
-<p><img data-src="DataManagementAccessible_files/images/database_schemas.png"></p>
+<p><img data-src="images/database_schemas.png"></p>
 </div>
 </div>
 </section>
-<section id="collect-example-1-glacial-database" class="slide level2 smaller">
-<h2>Collect: Example #1 (glacial database)</h2>
+<section id="obtaincollect-example-db" class="slide level2 smaller">
+<h2>Obtain/Collect: Example DB</h2>
 <p><strong>PostgreSQL Database Structure</strong> (data are atomized within fields and link across tables)</p>
 
-<img data-src="DataManagementAccessible_files/images/glacial_backEnd.png" class="r-stretch quarto-figure-center"></section>
-<section id="collect-example-1-glacial-database-1" class="slide level2 smaller">
-<h2>Collect: Example #1 (glacial database)</h2>
+<img data-src="images/glacial_backEnd.png" class="r-stretch quarto-figure-center"></section>
+<section id="obtaincollect-example-db-1" class="slide level2 smaller">
+<h2>Obtain/Collect: Example DB</h2>
 <p><strong>Data Entry Forms</strong> (in Access)</p>
 
-<img data-src="DataManagementAccessible_files/images/glacial_dataEntry.png" class="r-stretch quarto-figure-center"></section>
-<section id="collect-example-1-glacial-database-2" class="slide level2 smaller">
-<h2>Collect: Example #1 (glacial database)</h2>
+<img data-src="images/glacial_dataEntry.png" class="r-stretch quarto-figure-center"></section>
+<section id="obtaincollect-example-db-2" class="slide level2 smaller">
+<h2>Obtain/Collect: Example DB</h2>
 <p><strong>Process Tracking</strong> (in Access)</p>
 
-<img data-src="DataManagementAccessible_files/images/glacial_processTracking.png" class="r-stretch quarto-figure-center"></section>
-<section id="collect-example-1-glacial-database-3" class="slide level2 smaller">
-<h2>Collect: Example #1 (glacial database)</h2>
+<img data-src="images/glacial_processTracking.png" class="r-stretch quarto-figure-center"></section>
+<section id="obtaincollect-example-db-3" class="slide level2 smaller">
+<h2>Obtain/Collect: Example DB</h2>
 <p><strong>Dataset Tracking</strong> (in Access)</p>
 
-<img data-src="DataManagementAccessible_files/images/glacial_datasetTracking.png" class="r-stretch quarto-figure-center"></section>
-<section id="collect-take-away-actions" class="slide level2 smaller">
-<h2>Collect: Take-away Actions</h2>
+<img data-src="images/glacial_datasetTracking.png" class="r-stretch quarto-figure-center"></section>
+<section id="obtaincollect-take-away-actions" class="slide level2 smaller">
+<h2>Obtain/Collect: Take-away Actions</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
 <p><strong>Start Small</strong></p>
@@ -770,12 +797,12 @@ Stacie Koslovsky, MML/PEP
 <li><p>Automate data collection, where possible.</p></li>
 </ul>
 </div><div class="column" style="width:30%;">
-<p><img data-src="DataManagementAccessible_files/images/to_do_list.jpg"></p>
+<p><img data-src="images/to_do_list.jpg"></p>
 </div>
 </div>
 </section>
-<section id="assure" class="slide level2 smaller">
-<h2>Assure</h2>
+<section id="processassure" class="slide level2 smaller">
+<h2>Process/Assure</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
 <p>This is an easy step to overlook. Doing it well takes time…</p>
@@ -795,25 +822,25 @@ Stacie Koslovsky, MML/PEP
 </div>
 </div>
 </section>
-<section id="assure-example-1-in-field-report" class="slide level2 smaller">
-<h2>Assure: Example #1 (in-field report)</h2>
+<section id="processassure-example-report" class="slide level2 smaller">
+<h2>Process/Assure: Example Report</h2>
 <p>Review field data to ensure there were no issues with initial data collection…</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p><img data-src="DataManagementAccessible_files/images/bodyConditionReport_1.png" width="449"></p>
+<p><img data-src="images/bodyConditionReport_1.png"></p>
 </div><div class="column" style="width:50%;">
-<p><img data-src="DataManagementAccessible_files/images/bodyConditionReport_2.png" width="531"></p>
+<p><img data-src="images/bodyConditionReport_2.png"></p>
 </div>
 </div>
 </section>
-<section id="assure-example-2-in-database" class="slide level2 smaller">
-<h2>Assure: Example #2 (in database)</h2>
+<section id="processassure-example-db" class="slide level2 smaller">
+<h2>Process/Assure: Example DB</h2>
 <p>In a database, tables are where your data are stored. Queries are layers that exist on top of that table that summarize, filter. or order your data…they do <em>not</em> make another copy of the data. When your underlying data change, the data in the query also change automatically.</p>
 <p>Using queries to standardize extraction and to complete quality checks…</p>
 
-<img data-src="DataManagementAccessible_files/images/database_queries.png" class="r-stretch quarto-figure-center"></section>
-<section id="assure-take-away-actions" class="slide level2 smaller">
-<h2>Assure: Take-away Actions</h2>
+<img data-src="images/database_queries.png" class="r-stretch quarto-figure-center"></section>
+<section id="processassure-take-away-actions" class="slide level2 smaller">
+<h2>Process/Assure: Take-away Actions</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
 <p><strong>Start Small</strong></p>
@@ -831,7 +858,7 @@ Stacie Koslovsky, MML/PEP
 <li>Develop a systematic and automated quality assurance process to run on data after data collection (e.g.&nbsp;database queries, reports generated in R).</li>
 </ul>
 </div><div class="column" style="width:30%;">
-<p><img data-src="DataManagementAccessible_files/images/to_do_list.jpg"></p>
+<p><img data-src="images/to_do_list.jpg"></p>
 </div>
 </div>
 </section>
@@ -853,21 +880,21 @@ Stacie Koslovsky, MML/PEP
 </div>
 </div>
 </section>
-<section id="describe-example-1-inport" class="slide level2 smaller">
-<h2>Describe: Example #1 (InPort)</h2>
+<section id="describe-inport" class="slide level2 smaller">
+<h2>Describe: InPort</h2>
 <p><strong>PEP Metadata Repository</strong></p>
 
-<img data-src="DataManagementAccessible_files/images/inPort.png" class="r-stretch quarto-figure-center"></section>
-<section id="describe-example-2-dashboard" class="slide level2 smaller">
-<h2>Describe: Example #2 (dashboard)</h2>
+<img data-src="images/inPort.png" class="r-stretch quarto-figure-center"></section>
+<section id="describe-project-management" class="slide level2 smaller">
+<h2>Describe: Project Management</h2>
 <p><strong>Project management tracking within PEP dashboard</strong></p>
 
-<img data-src="DataManagementAccessible_files/images/pep_dashboard.png" class="r-stretch quarto-figure-center"></section>
-<section id="describe-example-3-github" class="slide level2 smaller">
-<h2>Describe: Example #3 (GitHub)</h2>
+<img data-src="images/pep_dashboard.png" class="r-stretch quarto-figure-center"></section>
+<section id="describe-github" class="slide level2 smaller">
+<h2>Describe: GitHub</h2>
 <p><strong>Project management on GitHub</strong> (developed by Josh London)</p>
 
-<img data-src="DataManagementAccessible_files/images/gitHub_harborSeals.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/gitHub_harborSeals.png" class="r-stretch quarto-figure-center"></section>
 <section id="describe-take-away-actions" class="slide level2 smaller">
 <h2>Describe: Take-away Actions</h2>
 <div class="columns">
@@ -890,7 +917,7 @@ Stacie Koslovsky, MML/PEP
 </ul>
 </div>
 </div><div class="column" style="width:30%;">
-<p><img data-src="DataManagementAccessible_files/images/to_do_list.jpg"></p>
+<p><img data-src="images/to_do_list.jpg"></p>
 </div>
 </div>
 </section>
@@ -913,7 +940,7 @@ Stacie Koslovsky, MML/PEP
 </div><div class="column" style="width:50%;">
 <p><strong>Data archives to consider</strong>:</p>
 <ul>
-<li><p>NOAA Big Data Program</p></li>
+<li><p>NODD (NOAA Open Data Dissemination; Google Cloud Platform)</p></li>
 <li><p>Animal Telemetry Network (ATN)</p></li>
 <li><p>OBIS SEAMAP</p></li>
 <li><p>NCEI</p></li>
@@ -924,16 +951,16 @@ Stacie Koslovsky, MML/PEP
 </div>
 </div>
 </section>
-<section id="discover-example-1-agol" class="slide level2 smaller">
-<h2>Discover: Example #1 (AGOL)</h2>
+<section id="discover-example-agol" class="slide level2 smaller">
+<h2>Discover: Example AGOL</h2>
 <p><strong>Data Portal</strong> (for sharing data with AK Regional Office)</p>
 
-<img data-src="DataManagementAccessible_files/images/agol.png" class="r-stretch quarto-figure-center"></section>
-<section id="discover-example-2-shiny-app" class="slide level2 smaller">
-<h2>Discover: Example #2 (Shiny App)</h2>
+<img data-src="images/agol.png" class="r-stretch quarto-figure-center"></section>
+<section id="discover-example-shiny-app" class="slide level2 smaller">
+<h2>Discover: Example Shiny App</h2>
 <p><strong>Interactive application</strong> (for exploring harbor seal abundance estimates)</p>
 
-<img data-src="DataManagementAccessible_files/images/coastalPv_ShinyApp.png" class="r-stretch"></section>
+<img data-src="images/coastalPv_ShinyApp.png" class="r-stretch"></section>
 <section id="preservediscover-take-away-actions" class="slide level2 smaller">
 <h2>Preserve/Discover: Take-away Actions</h2>
 <div class="columns">
@@ -953,7 +980,7 @@ Stacie Koslovsky, MML/PEP
 </ul>
 </div>
 </div><div class="column" style="width:30%;">
-<p><img data-src="DataManagementAccessible_files/images/to_do_list.jpg"></p>
+<p><img data-src="images/to_do_list.jpg"></p>
 </div>
 </div>
 </section>
@@ -974,11 +1001,11 @@ Stacie Koslovsky, MML/PEP
 </div>
 </div>
 </section>
-<section id="integrate-example-1-getting-data" class="slide level2 smaller">
-<h2>Integrate: Example #1 (getting data)</h2>
+<section id="integrateanalyze-example" class="slide level2 smaller">
+<h2>Integrate/Analyze: Example</h2>
 <p><strong>R package</strong> (to simplify and ensure consistent retrieval from the database)</p>
 
-<img data-src="DataManagementAccessible_files/images/pepDataConnect.png" class="r-stretch quarto-figure-center"></section>
+<img data-src="images/pepDataConnect.png" class="r-stretch quarto-figure-center"></section>
 <section id="integrateanalyze-take-away-actions" class="slide level2 smaller">
 <h2>Integrate/Analyze: Take-away Actions</h2>
 <div class="columns">
@@ -997,7 +1024,7 @@ Stacie Koslovsky, MML/PEP
 <li><p>Develop an R package detailing the analyses (for code someone else might use).</p></li>
 </ul>
 </div><div class="column" style="width:30%;">
-<p><img data-src="DataManagementAccessible_files/images/to_do_list.jpg"></p>
+<p><img data-src="images/to_do_list.jpg"></p>
 </div>
 </div>
 </section>
@@ -1013,19 +1040,9 @@ Stacie Koslovsky, MML/PEP
 <li><p>We start the process again…</p></li>
 </ol>
 </section>
-<section id="data-related-positions" class="slide level2 smaller">
-<h2>Data-related Positions</h2>
-
-<img data-src="DataManagementAccessible_files/images/hierarchy_of_needs.png" class="r-stretch quarto-figure-center"><ul>
-<li><p>Role is particularly important in the <strong>planning</strong> and <strong>collecting</strong> phases of the data management life cycle.</p></li>
-<li><p>The <strong>assuring</strong>, <strong>describing</strong>, <strong>preserving</strong> and <strong>discovering</strong> phases are the logical places where this role fits into the larger project.</p></li>
-<li><p>By the time the work gets to the <strong>integrating</strong> and <strong>analyzing</strong> phases, the person (or people) in this role knows the nuances of the data backwards and forwards.</p></li>
-</ul>
-<p>*Depending on the project/program structure, this might be one person or many people.</p>
-</section>
-<section id="deia-related-to-data-management" class="slide level2 smaller">
-<h2>DEIA-related to Data Management</h2>
-<p>Make data management practices more diverse, equitable, inclusive, and accessible:</p>
+<section id="staff-engagement-part-ii" class="slide level2">
+<h2>Staff Engagement Part II</h2>
+<p>Make data management practices more friendly to and considerate of staff skills/abilities:</p>
 <ul>
 <li><p>Target users of all technical backgrounds and develop systems that are accommodating to everyone.</p>
 <ul>
@@ -1043,6 +1060,75 @@ Stacie Koslovsky, MML/PEP
 </ul></li>
 <li><p>Recognize this work can be un(der)funded and/or un(der)staffed…</p></li>
 </ul>
+</section>
+<section id="staff-engagement-part-ii-questions" class="slide level2 smaller">
+<h2>Staff Engagement Part II: Questions</h2>
+<ul>
+<li><p>Is the planning process inclusive (as appropriate)?</p></li>
+<li><p>Has feedback from a diversity of staff been incorporated into changes for the upcoming work?</p></li>
+<li><p>Are there clear instructions for how data will be collected?</p></li>
+<li><p>Have staff been given the appropriate training for collecting and/or processing data?</p></li>
+<li><p>Are staff comfortable sharing mis-steps or issues with data collection?</p></li>
+<li><p>Does documentation of processing steps exist? Is it accessible?</p></li>
+<li><p>Do we have processes in place to reduce process errors, and especially individual responsibility?</p></li>
+<li><p>Does the process for retrieving and updating data clear and avoidant of errors?</p></li>
+<li><p>Is the process for sharing data for an analysis inclusive of a diversity of perspectives? The people who collected the data might have different concerns about how data are analyzed based on their own observations/experiences than the project/data lead…</p></li>
+<li><p>Are the data available in a format that is accessible?</p></li>
+</ul>
+</section>
+<section id="errors-happen" class="slide level2 smaller">
+<h2>Errors Happen!</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="https://imgs.xkcd.com/comics/error_types.png"></p>
+</div><div class="column" style="width:70%;">
+<ul>
+<li><p>Systemic Error</p>
+<ul>
+<li>Errors due to system or other bias</li>
+<li>Typically avoided by pre-project planning</li>
+</ul></li>
+<li><p>Random Error</p>
+<ul>
+<li>Errors caused by random circumstances during collection</li>
+<li>Control what we can; adjust things as-needed</li>
+</ul></li>
+<li><p>Human Error</p>
+<ul>
+<li>Mistakes that occur during the handling, entry, or analysis of data</li>
+<li>No one is expected to be perfect, so we must expect this!</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<p>**Data reviews and quality control were mentioned in NOAA Scientific Integrity Training as critical components of ensuring the integrity of the work we do!</p>
+</section>
+<section id="how-you-handle-errors-matters" class="slide level2 smaller">
+<h2>How You Handle Errors Matters!!</h2>
+<p>To minimize processing errors (taken from the internet), we should:</p>
+<ul>
+<li><p><strong>Double data entry/verification</strong> (one person enter; someone else verify; it is very unlikely that two people will make an identical mistake at the exact same time)</p></li>
+<li><p><strong>Have automated data validation checks</strong> (i.e.&nbsp;processes to review data for consistency errors; quantified summaries of data)</p></li>
+<li><p><strong>Thorough data cleaning procedures</strong> (i.e.&nbsp;QA/QC queries)</p></li>
+<li><p><strong>Conducting data audits</strong> (i.e., review data before use for potential issues)</p></li>
+</ul>
+<p>I would add…</p>
+<ul>
+<li><p>We need to make sure our processes are set up such that no one person has the potential to be a single point of error.</p></li>
+<li><p>Make sure we use language to support, not burden, people when mistakes are made.&nbsp;</p></li>
+<li><p>Data curation is a group responsibility.</p></li>
+<li><p>Accept we are all people, we all make mistakes, and we all share responsibility in doing our best.</p></li>
+</ul>
+</section>
+<section id="data-related-positions" class="slide level2 smaller">
+<h2>Data-related Positions</h2>
+
+<img data-src="images/hierarchy_of_needs.png" class="r-stretch quarto-figure-center"><ul>
+<li><p>Role is particularly important in the <strong>planning</strong> and <strong>collecting</strong> phases of the data management life cycle.</p></li>
+<li><p>The <strong>assuring</strong>, <strong>describing</strong>, <strong>preserving</strong> and <strong>discovering</strong> phases are the logical places where this role fits into the larger project.</p></li>
+<li><p>By the time the work gets to the <strong>integrating</strong> and <strong>analyzing</strong> phases, the person (or people) in this role knows the nuances of the data backwards and forwards.</p></li>
+</ul>
+<p>*Depending on the project/program structure, this might be one person or many people.</p>
 </section>
 <section id="reminders" class="slide level2 smaller">
 <h2>Reminders</h2>
@@ -1085,18 +1171,21 @@ Stacie Koslovsky, MML/PEP
 <section id="resources" class="slide level2 smaller">
 <h2>Resources</h2>
 <ul>
-<li><a href="https://github.com/staciekoslovsky-noaa/PEP_Admin/blob/main/PEP_DataMgmtPlan.qmd">PEP Data Management Plan</a></li>
-<li><a href="https://esip.figshare.com/articles/online_resource/Biological_Observation_Data_Standardization_-_A_Primer_for_Data_Managers/16806712/2">Biological Observation Data Standardization - A Primer for Data Managers</a></li>
+<li><a href="https://nosc.noaa.gov/EDMC/documents/NAO_212-15B-Data_Mgt_Handbook-2024-Oct-1_remediated.pdf">NOAA Data Management Handbook</a></li>
+<li><a href="https://htmlpreview.github.io/?https://github.com/staciekoslovsky-noaa/PEP_DataMgmtPlan/blob/main/PEP_DataMgmtPlan.html">PEP Data Management Plan</a></li>
 <li><a href="https://repository.oceanbestpractices.org/bitstream/handle/11329/502/DataONE_BP_Primer_020212.pdf">DataOne Primer on Data Management</a></li>
-<li><a href="https://datamanagement.hms.harvard.edu/plan-design/biomedical-data-lifecycle">Harvard Biomedical Data Lifecycle</a></li>
-<li><a href="https://sciencecouncil.noaa.gov/Portals/0/2020%20Data%20Strategy.pdf?ver=2020-09-17-150024-997">NOAA Data Strategy: Maximizing the Value of NOAA Data</a></li>
 <li><a href="https://en.wikipedia.org/wiki/ISO_8601#Dates">ISO 8601 Standards for date/time</a></li>
 </ul>
 <p>Thank you to everyone who contributed ideas for helping to formulate parts of this talk!</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="https://imgs.xkcd.com/comics/fixing_problems.png"></p>
+</figure>
+</div>
 
-
-<img src="https://www.fisheries.noaa.gov/themes/custom/noaa_components/images/fisheries_header_logo_jul2019.png" class="slide-logo r-stretch"><div class="footer footer-default">
-<p>MML Seminar Series | Data Management Made a Little Less Scary | Stacie Koslovsky</p>
+<p><img src="https://www.fisheries.noaa.gov/themes/custom/noaa_components/images/fisheries_header_logo_jul2019.png" class="slide-logo"></p>
+<div class="footer footer-default">
+<p>PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovsky</p>
 </div>
 </section>
     </div>
