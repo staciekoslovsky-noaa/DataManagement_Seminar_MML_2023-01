@@ -10,7 +10,7 @@ footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovs
 
 ## Goals for Workshop {.smaller}
 
--   Define data management workflow and data manager/scientist role.
+-   Define data management workflowand data manager/scientist role.
 
 -   Share concepts and examples.
 
@@ -25,18 +25,6 @@ footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovs
 -   Break-out rooms + discussion for applying some of these concepts
 
 ![](images/data_are_plural.jpg){fig-align="center"}
-
-## Pre-Workshop Questions
-
-10 minutes for silent journaling (including reading and +1'ing other responses) + time for discussion
-
--   What are the biggest challenges YOU face handling data?
-
--   What are the biggest challenged your PROGRAM or WORKING GROUP face handling data?
-
--   What do you hope to gain/takeaway from today's workshop?
-
-![](https://imgs.xkcd.com/comics/data_pipeline.png){fig-align="center"}
 
 ## 2020 NOAA Data Strategy {.smaller}
 
@@ -902,8 +890,6 @@ For an analyses, you might be working with a single data set or integrating a nu
 :::
 :::
 
-## Disposition
-
 ## Aerial Harbor Seal Surveys Example... {.smaller}
 
 1.  Regular standing data-related meetings throughout the year for planning/reviewing/ processing. After one field effort and before the next, evaluate any changes needed for data collection.
@@ -1047,12 +1033,6 @@ For data management (and life):
 
 ## Next Steps {.smaller}
 
-::: columns
-::: {.column width="25%"}
-![](https://imgs.xkcd.com/comics/data_trap.png)
-:::
-
-::: {.column width="75%"}
 -   This information can be applied to your individual work or to projects.
 
     -   For individual files and information, learn from one another!
@@ -1069,8 +1049,6 @@ For data management (and life):
     -   If it was a lot of new information for you (and maybe you're feeling overwhelmed with where to start), pick one thing from one section and give it a try.
 
 -   I am *always* happy to talk about data things. Feel free to ask questions, run things by me, etc.
-:::
-:::
 
 ## Resources {.smaller}
 
@@ -1082,89 +1060,3 @@ For data management (and life):
 Thank you to everyone who contributed ideas for helping to formulate parts of this talk!
 
 ![](https://imgs.xkcd.com/comics/fixing_problems.png){fig-align="center"}
-
-## Discussion
-
--   Questions
-
-## Break-out Rooms (45 minutes)
-
-1.  Spend 10-15 minutes discussing data management challenges you each face.
-
-2.  Identify a Data Challenge to discuss and brainstorm in more detail as a group. Options for the challenge are detailed in the following slides. Feel free to choose the challenge that feels most relevant to your group. These are all real examples of data workflow challenges I've faced in my career, and I've selected these in hopes they reflect some of the challenges you face.
-
-3.  Spend \~30 minutes working through the Data Challenge together. There is no right or wrong answer!
-
-**Reminders:**
-
--   Honor that everyone is at different levels of experience.
-
--   Be respectful. Listen. Take space, give space.
-
-## Data Challenge #1
-
-You are given a stack of datasheets (not digitally archived) associated with a
-
--   Where would you start?
--   How would you organize the data?
--   What tools would you use to store and work with the data?
--   How would you ensure data quality?
-
-## Data Challenge #2
-
-(ChESS data clean-up)
-
--   Where would you start?
--   What tools would you use to store and work with the data?
-
-## Data Challenge #3
-
-Planning for field data collection + in-field data review.
-
--   Where would you start?
-
-## Data Challenge #4
-
-Starting a new project
-
--   Where would you start?
-
-## Recap from Break-out Rooms
-
--   What did you learn?
-
--   How similar/different were the challenges you each face?
-
--   What was the challenge did you select and give a short description of the solution you developed and/or the stumbling blocks you had coming up with a solution?
-
-## Post-Workshop Questions
-
-10 minutes for silent journaling (including reading and +1'ing other responses) + time for discussion
-
--   What can you apply in the next week from what you learned today?
-
--   What can you apply in the next month from what you learned today?
-
--   What would be helpful to learn more about?
-
-![](https://imgs.xkcd.com/comics/shouldnt_be_hard.png){fig-align="center"}
-
-## Thank you!
-
-Stacie.Koslovsky\@noaa.gov
-
-https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png
-
-https://imgs.xkcd.com/comics/automation.png
-
-https://imgs.xkcd.com/comics/spreadsheets.png
-
-https://imgs.xkcd.com/comics/disk_usage.png
-
-https://imgs.xkcd.com/comics/scientific_paper_graph_quality.png
-
-https://imgs.xkcd.com/comics/efficiency.png
-
-https://imgs.xkcd.com/comics/query.png
-
-https://imgs.xkcd.com/comics/shouldnt_be_hard.png
