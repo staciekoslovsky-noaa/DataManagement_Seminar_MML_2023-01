@@ -1,16 +1,16 @@
 ---
-title: "Making Data Management Accessible"
+title: "Data Management Made a Little Less Scary"
 subtitle: "Strategies to Meet You Where You Are"
-author: "Stacie Koslovsky, AFSC/MML/PEP"
-date: '2025-08-19'
+author: "Stacie Koslovsky, MML/PEP"
+date: '2023-01-13'
 format: revealjs
 logo: https://www.fisheries.noaa.gov/themes/custom/noaa_components/images/fisheries_header_logo_jul2019.png
-footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovsky"
+footer: "MML Seminar Series | Data Management Made a Little Less Scary | Stacie Koslovsky"
 ---
 
-## Goals for Workshop {.smaller}
+## Goals for Seminar {.smaller}
 
--   Define data management workflowand data manager/scientist role.
+-   Define data management and data manager/scientist role.
 
 -   Share concepts and examples.
 
@@ -22,15 +22,23 @@ footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovs
 
     -   Bring It On!
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 -   Break-out rooms + discussion for applying some of these concepts
 
 ![](images/data_are_plural.jpg){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/data_are_plural.jpg){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## 2020 NOAA Data Strategy {.smaller}
 
 ::: columns
 ::: {.column width="25%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/noaa_data_strategy.png)
+=======
+![](DataManagementAccessible_files/images/noaa_data_strategy.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 
 ::: {.column width="75%"}
@@ -48,12 +56,15 @@ footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovs
 :::
 :::
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## NOAA Data Management Handbook {.smaller}
 
 ![](images/noaa_data_workflow-01.png){fig-align="center" width="100%"}
 
 Published in 2024, "this Handbook is designed to provide NOAA data practitioners the requirements, metrics, and procedures and/or best practices to follow in alignment with the laws, regulations, memoranda, and strategic plans. ... The procedures apply to all NOAA Line Offices and Staff Offices, including affiliates and grantees funded with NOAA resources."
 
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 ## Overview {.smaller}
 
 ![](http://www.phdcomics.com/comics/archive/phd053104s.gif){fig-align="center"}
@@ -88,6 +99,7 @@ A well-designed data management system will:
 
 -   Be expandable and flexible to meet future needs.
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Staff Engagement  {.smaller}
 
 How do we come together as a team to engage in data management most effectively? 
@@ -102,6 +114,8 @@ How do we come together as a team to engage in data management most effectively?
 
 -   **Staff feel accepted and supported** in projects and within program
 
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 ## Data Management Life Cycle
 
 ```{r, echo = FALSE, warnings = FALSE, height = 5, fig.cap="Adopted from DataOne."}
@@ -129,8 +143,8 @@ grViz("digraph flowchart {
       }
 
       [1]: 'Plan (as best and as much as you can)'
-      [2]: 'Obtain/Collect (the fun part, most of the time)'
-      [3]: 'Process/Assure (quality assurance and control)'
+      [2]: 'Collect (the fun part, most of the time)'
+      [3]: 'Assure (quality assurance and control)'
       [4]: 'Describe (data documentation)'
       [5]: 'Preserve (at data center or archive)'
       [6]: 'Discover (make your data findable)'
@@ -169,12 +183,16 @@ grViz("digraph flowchart {
       }
 
       [1]: 'Plan (as best and as much as you can)'
-      [2]: 'Obtain/Collect (the fun part, most of the time)'
-      [3]: 'Process/Assure (quality assurance and control)'
+      [2]: 'Collect (the fun part, most of the time)'
+      [3]: 'Assure (quality assurance and control)'
       [4]: 'Describe (data documentation)'
       [5]: 'Preserve (at data center or archive)'
       [6]: 'Discover (make your data findable)'
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
       [7]: 'Integrate/Analyze (you know this part better than me)'
+=======
+      [7]: 'Integrate and Analyze (you likely know this part better than me)'
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
       ")
 ```
 
@@ -194,7 +212,11 @@ grViz("digraph flowchart {
 
 -   Early planning takes a lot of work, but working through all these steps from the beginning will save you *so much* time later.
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/planning.jpg){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/planning.jpg){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Plan: Things to Consider {.smaller}
 
@@ -243,7 +265,11 @@ grViz("digraph flowchart {
 ::: columns
 **Personal File Management** (could be on computer or in user's folder)
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_structure_personal.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/sample_folder_structure_personal.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 
 ## Plan: Folder Organization: Program {.smaller}
@@ -252,19 +278,31 @@ grViz("digraph flowchart {
 ::: {.column width="33%"}
 **Main Folder Structure**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_network_1.png)
+=======
+![](DataManagementAccessible_files/images/sample_folder_network_1.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 
 ::: {.column width="33%"}
 **Subfolders within...Data**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_network_2.png)
+=======
+![](DataManagementAccessible_files/images/sample_folder_network_2.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 
 ::: {.column width="33%"}
 **...ProgramMgmt & Projects**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_network_3.png)
+=======
+![](DataManagementAccessible_files/images/sample_folder_network_3.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
@@ -286,15 +324,22 @@ There are two camps here (and I've highlighted some considerations for each):
 
     -   More overhead required for managing files.
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
     -   New Google Shared Drives are an option for shared spaces without "ownership" by a single individual.
 
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 For larger groups (at the program- or project-scale), I'd recommend organizing a centralized folder system and sharing within that, but either way, it's a good conversation to have.
 
 ## Plan: Google Drive Organization {.smaller}
 
 **PEP Centralized Google Drive Folder Structure**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/pepGoogleDrive.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/pepGoogleDrive.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 **LAN vs Google Drive**
 
@@ -436,13 +481,17 @@ Think about how you're going to...
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
-## Obtain/Collect {.smaller}
+## Collect {.smaller}
 
-How you collect and obtain data heavily influences down-stream data processing. Set yourself up for success from the beginning!
+How you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!
 
 -   Use consistent methods for collecting data.
 
@@ -460,7 +509,7 @@ How you collect and obtain data heavily influences down-stream data processing. 
 
     -   Color-coding in spreadsheets is *great* for visualization...but it's not a substitute for organizing your data properly.
 
-## Obtain/Collect {.smaller}
+## Collect {.smaller}
 
 How you collect data heavily influences down-stream data processing. Set yourself up for success from the beginning!
 
@@ -478,7 +527,11 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 -   Import raw or manually enter data into a database!
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Obtain/Collect: Standardization
+=======
+## Collect: Data Collection Template
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ::: columns
 ::: {.column width="50%"}
@@ -486,7 +539,11 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 **Main Folder Structure**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/coastal_data_1.png)
+=======
+![](DataManagementAccessible_files/images/coastal_data_1.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 </div>
 :::
@@ -496,29 +553,41 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 **Subfolder Structure**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/coastal_data_2.png)
+=======
+![](DataManagementAccessible_files/images/coastal_data_2.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 </div>
 :::
 :::
 
-## Obtain/Collect: Wide vs Long Formats
+## Collect: Wide vs Long Formats
 
 ::: columns
 ::: {.column width="50%"}
 **Wide Format**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_results_wide.png)
+=======
+![](DataManagementAccessible_files/images/sample_results_wide.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 
 ::: {.column width="50%"}
 **Long Format** (preferred)
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_results_long.png)
+=======
+![](DataManagementAccessible_files/images/sample_results_long.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
-## Obtain/Collect: Measurements + Units {.smaller}
+## Collect: Measurements + Units {.smaller}
 
 -   If you're storing the data in a wide format (each measurement type gets it's own field)...
 
@@ -528,7 +597,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 -   If you're storing the data in a long format (all measurements in the same field, with another field indicating the measurement type), either create a measurement unit field OR (in a database) related the measurements to a measurement type lookup table and store the unit information there.
 
-## Obtain/Collect: Archive/Storage {.smaller}
+## Collect: Archive/Storage {.smaller}
 
 ::: columns
 ::: {.column width="70%"}
@@ -554,6 +623,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 ::: {.column width="30%"}
 **PEP Database Schemas**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/database_schemas.png)
 :::
 :::
@@ -581,8 +651,37 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 **Dataset Tracking** (in Access)
 
 ![](images/glacial_datasetTracking.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/database_schemas.png)
+:::
+:::
 
-## Obtain/Collect: Take-away Actions {.smaller}
+## Collect: Example #1 (glacial database) {.smaller}
+
+**PostgreSQL Database Structure** (data are atomized within fields and link across tables)
+
+![](DataManagementAccessible_files/images/glacial_backEnd.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Data Entry Forms** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_dataEntry.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Process Tracking** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_processTracking.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Dataset Tracking** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_datasetTracking.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+
+## Collect: Take-away Actions {.smaller}
 
 ::: columns
 ::: {.column width="70%"}
@@ -608,11 +707,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
-## Process/Assure {.smaller}
+## Assure {.smaller}
 
 ::: columns
 ::: {.column width="70%"}
@@ -642,12 +745,17 @@ This is an easy step to overlook. Doing it well takes time...
 :::
 :::
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Process/Assure: Example Report {.smaller}
+=======
+## Assure: Example #1 (in-field report) {.smaller}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 Review field data to ensure there were no issues with initial data collection...
 
 ::: columns
 ::: {.column width="50%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/bodyConditionReport_1.png)
 :::
 
@@ -657,14 +765,29 @@ Review field data to ensure there were no issues with initial data collection...
 :::
 
 ## Process/Assure: Example DB {.smaller}
+=======
+![](DataManagementAccessible_files/images/bodyConditionReport_1.png){width="449"}
+:::
+
+::: {.column width="50%"}
+![](DataManagementAccessible_files/images/bodyConditionReport_2.png){width="531"}
+:::
+:::
+
+## Assure: Example #2 (in database) {.smaller}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 In a database, tables are where your data are stored. Queries are layers that exist on top of that table that summarize, filter. or order your data...they do *not* make another copy of the data. When your underlying data change, the data in the query also change automatically.
 
 Using queries to standardize extraction and to complete quality checks...
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/database_queries.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/database_queries.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
-## Process/Assure: Take-away Actions {.smaller}
+## Assure: Take-away Actions {.smaller}
 
 ::: columns
 ::: {.column width="70%"}
@@ -686,7 +809,11 @@ Using queries to standardize extraction and to complete quality checks...
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
@@ -718,19 +845,31 @@ This is doesn't just have to be done in InPort.
 
 **PEP Metadata Repository**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/inPort.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/inPort.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Describe: Project Management {.smaller}
 
 **Project management tracking within PEP dashboard**
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/pep_dashboard.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/pep_dashboard.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Describe: GitHub {.smaller}
 
 **Project management on GitHub** (developed by Josh London)
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/gitHub_harborSeals.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/gitHub_harborSeals.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Describe: Take-away Actions {.smaller}
 
@@ -758,7 +897,11 @@ This is doesn't just have to be done in InPort.
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
@@ -786,7 +929,7 @@ This is doesn't just have to be done in InPort.
 ::: {.column width="50%"}
 **Data archives to consider**:
 
--   NODD (NOAA Open Data Dissemination; Google Cloud Platform)
+-   NOAA Big Data Program
 
 -   Animal Telemetry Network (ATN)
 
@@ -806,13 +949,21 @@ This is doesn't just have to be done in InPort.
 
 **Data Portal** (for sharing data with AK Regional Office)
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/agol.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/agol.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Discover: Example Shiny App {.smaller}
 
 **Interactive application** (for exploring harbor seal abundance estimates)
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/coastalPv_ShinyApp.png)
+=======
+![](DataManagementAccessible_files/images/coastalPv_ShinyApp.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Preserve/Discover: Take-away Actions {.smaller}
 
@@ -834,7 +985,11 @@ This is doesn't just have to be done in InPort.
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
@@ -864,7 +1019,11 @@ For an analyses, you might be working with a single data set or integrating a nu
 
 **R package** (to simplify and ensure consistent retrieval from the database)
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/pepDataConnect.png){fig-align="center"}
+=======
+![](DataManagementAccessible_files/images/pepDataConnect.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 ## Integrate/Analyze: Take-away Actions {.smaller}
 
@@ -886,7 +1045,11 @@ For an analyses, you might be working with a single data set or integrating a nu
 :::
 
 ::: {.column width="30%"}
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 :::
 :::
 
@@ -906,9 +1069,27 @@ For an analyses, you might be working with a single data set or integrating a nu
 
 7.  We start the process again...
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Staff Engagement Part II
 
 Make data management practices more friendly to and considerate of staff skills/abilities:
+=======
+## Data-related Positions {.smaller}
+
+![](DataManagementAccessible_files/images/hierarchy_of_needs.png){fig-align="center"}
+
+-   Role is particularly important in the **planning** and **collecting** phases of the data management life cycle.
+
+-   The **assuring**, **describing**, **preserving** and **discovering** phases are the logical places where this role fits into the larger project.
+
+-   By the time the work gets to the **integrating** and **analyzing** phases, the person (or people) in this role knows the nuances of the data backwards and forwards.
+
+\*Depending on the project/program structure, this might be one person or many people.
+
+## DEIA-related to Data Management {.smaller}
+
+Make data management practices more diverse, equitable, inclusive, and accessible:
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 
 -   Target users of all technical backgrounds and develop systems that are accommodating to everyone.
 
@@ -926,6 +1107,7 @@ Make data management practices more friendly to and considerate of staff skills/
 
 -   Recognize this work can be un(der)funded and/or un(der)staffed...
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Staff Engagement Part II: Questions {.smaller}
 
 -   Is the planning process inclusive (as appropriate)?
@@ -1009,6 +1191,8 @@ I would add…
 
 \*Depending on the project/program structure, this might be one person or many people.
 
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 ## Reminders {.smaller}
 
 For data management (and life):
@@ -1052,8 +1236,13 @@ For data management (and life):
 
 ## Resources {.smaller}
 
+<<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 -   [NOAA Data Management Handbook](https://nosc.noaa.gov/EDMC/documents/NAO_212-15B-Data_Mgt_Handbook-2024-Oct-1_remediated.pdf)
 -   [PEP Data Management Plan](https://htmlpreview.github.io/?https://github.com/staciekoslovsky-noaa/PEP_DataMgmtPlan/blob/main/PEP_DataMgmtPlan.html)
+=======
+-   [PEP Data Management Plan](https://github.com/staciekoslovsky-noaa/PEP_Admin/blob/main/PEP_DataMgmtPlan.qmd)
+-   [Biological Observation Data Standardization - A Primer for Data Managers](https://esip.figshare.com/articles/online_resource/Biological_Observation_Data_Standardization_-_A_Primer_for_Data_Managers/16806712/2)
+>>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 -   [DataOne Primer on Data Management](https://repository.oceanbestpractices.org/bitstream/handle/11329/502/DataONE_BP_Primer_020212.pdf)
 -   [ISO 8601 Standards for date/time](https://en.wikipedia.org/wiki/ISO_8601#Dates)
 
