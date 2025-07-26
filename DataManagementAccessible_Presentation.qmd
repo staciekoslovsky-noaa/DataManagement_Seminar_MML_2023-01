@@ -24,13 +24,13 @@ footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovs
 
 -   Break-out rooms + discussion for applying some of these concepts
 
-![](images/data_are_plural.jpg){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/data_are_plural.jpg){fig-align="center"}
 
 ## 2020 NOAA Data Strategy {.smaller}
 
 ::: columns
 ::: {.column width="25%"}
-![](images/noaa_data_strategy.png)
+![](docs/DataManagementAccessible_files/images/noaa_data_strategy.png)
 :::
 
 ::: {.column width="75%"}
@@ -48,11 +48,17 @@ footer: "PSAW 2025 Workshop | Making Data Management Accessible | Stacie Koslovs
 :::
 :::
 
-## NOAA Data Management Handbook {.smaller}
+## 2024 NOAA Data Management Handbook {.smaller}
 
-![](images/noaa_data_workflow-01.png){fig-align="center" width="100%"}
+::: columns
+::: {.column width="25%"}
+![](docs/DataManagementAccessible_files/images/noaa-_data_workflow.png)
+:::
 
-Published in 2024, "this Handbook is designed to provide NOAA data practitioners the requirements, metrics, and procedures and/or best practices to follow in alignment with the laws, regulations, memoranda, and strategic plans. ... The procedures apply to all NOAA Line Offices and Staff Offices, including affiliates and grantees funded with NOAA resources."
+::: {.column width="75%"}
+"This Handbook is designed to provide NOAA data practitioners the requirements, metrics, and procedures and/or best practices to follow in alignment with the laws, regulations, memoranda, and strategic plans. The scope of this document includes procedures to manage data throughout the data life cycle from data planning, obtaining data through long-term preservation and broad data access, but does not include data security, data collection planning or execution, or data quality control. The procedures apply to all NOAA Line Offices and Staff Offices, including affiliates and grantees funded with NOAA resources."
+:::
+:::
 
 ## Overview {.smaller}
 
@@ -88,7 +94,7 @@ A well-designed data management system will:
 
 -   Be expandable and flexible to meet future needs.
 
-## Staff Engagement  {.smaller}
+## Staff Engagement in Data Management
 
 How do we come together as a team to engage in data management most effectively? 
 
@@ -134,7 +140,7 @@ grViz("digraph flowchart {
       [4]: 'Describe (data documentation)'
       [5]: 'Preserve (at data center or archive)'
       [6]: 'Discover (make your data findable)'
-      [7]: 'Integrate/Analyze (you know this part better than me)'
+      [7]: 'Integrate and Analyze (you know this part better than me)'
       ")
 ```
 
@@ -174,17 +180,9 @@ grViz("digraph flowchart {
       [4]: 'Describe (data documentation)'
       [5]: 'Preserve (at data center or archive)'
       [6]: 'Discover (make your data findable)'
-      [7]: 'Integrate/Analyze (you know this part better than me)'
+      [7]: 'Integrate and Analyze (you know this part better than me)'
       ")
 ```
-
-## Data Management is Inclusive
-
-![](images/pep_workflow.png)
-
-## Workflow Potential Bottlenecks
-
-![](images/pep_bottleneecks.png)
 
 ## Plan {.smaller}
 
@@ -194,7 +192,7 @@ grViz("digraph flowchart {
 
 -   Early planning takes a lot of work, but working through all these steps from the beginning will save you *so much* time later.
 
-![](images/planning.jpg){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/planning.jpg){fig-align="center"}
 
 ## Plan: Things to Consider {.smaller}
 
@@ -243,7 +241,7 @@ grViz("digraph flowchart {
 ::: columns
 **Personal File Management** (could be on computer or in user's folder)
 
-![](images/sample_folder_structure_personal.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/sample_folder_structure_personal.png){fig-align="center"}
 :::
 
 ## Plan: Folder Organization: Program {.smaller}
@@ -252,19 +250,19 @@ grViz("digraph flowchart {
 ::: {.column width="33%"}
 **Main Folder Structure**
 
-![](images/sample_folder_network_1.png)
+![](docs/DataManagementAccessible_files/images/sample_folder_network_1.png)
 :::
 
 ::: {.column width="33%"}
 **Subfolders within...Data**
 
-![](images/sample_folder_network_2.png)
+![](docs/DataManagementAccessible_files/images/sample_folder_network_2.png)
 :::
 
 ::: {.column width="33%"}
 **...ProgramMgmt & Projects**
 
-![](images/sample_folder_network_3.png)
+![](docs/DataManagementAccessible_files/images/sample_folder_network_3.png)
 :::
 :::
 
@@ -286,15 +284,13 @@ There are two camps here (and I've highlighted some considerations for each):
 
     -   More overhead required for managing files.
 
-    -   New Google Shared Drives are an option for shared spaces without "ownership" by a single individual.
-
-For larger groups (at the program- or project-scale), I'd recommend organizing a centralized folder system and sharing within that, but either way, it's a good conversation to have.
+For larger groups (at the program- or project-scale), I'd recommend organizing a centralized folder system and sharing within that, but either way, it's a good conversation to have. New Google Shared Drives are an option for shared spaces without "ownership" by a single individual.
 
 ## Plan: Google Drive Organization {.smaller}
 
 **PEP Centralized Google Drive Folder Structure**
 
-![](images/pepGoogleDrive.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/pepGoogleDrive.png){fig-align="center"}
 
 **LAN vs Google Drive**
 
@@ -386,7 +382,7 @@ File names ideally describe the project, file contents, location, and date -- an
 
     -   Thh:mm:ss.sss (using the 24-hour clock system)
 
--   Many projects/programs work across time zones, which makes data collection and management particularly complicated. Consider standardizing date/time data to GMT.
+-   We work across time zones, which makes data collection and management particularly complicated. Consider standardizing date/time data to GMT.
 :::
 :::
 
@@ -436,7 +432,7 @@ Think about how you're going to...
 :::
 
 ::: {.column width="30%"}
-![](images/to_do_list.jpg)
+![](docs/DataManagementAccessible_files/images/to_do_list.jpg)
 :::
 :::
 
@@ -478,7 +474,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 -   Import raw or manually enter data into a database!
 
-## Obtain/Collect: Standardization
+## Obtain/Collect: Data Collection Template
 
 ::: columns
 ::: {.column width="50%"}
@@ -486,7 +482,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 **Main Folder Structure**
 
-![](images/coastal_data_1.png)
+![](docs/DataManagementAccessible_files/images/coastal_data_1.png)
 
 </div>
 :::
@@ -496,7 +492,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 **Subfolder Structure**
 
-![](images/coastal_data_2.png)
+![](docs/DataManagementAccessible_files/images/coastal_data_2.png)
 
 </div>
 :::
@@ -508,13 +504,13 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 ::: {.column width="50%"}
 **Wide Format**
 
-![](images/sample_results_wide.png)
+![](docs/DataManagementAccessible_files/images/sample_results_wide.png)
 :::
 
 ::: {.column width="50%"}
 **Long Format** (preferred)
 
-![](images/sample_results_long.png)
+![](docs/DataManagementAccessible_files/images/sample_results_long.png)
 :::
 :::
 
@@ -540,7 +536,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
     -   Database - benefit of related data and lookup values
 
-        -   PostgreSQL / SQL Server / Azure / Oracle
+        -   PostgreSQL / SQL Server / Azure
 
         -   Geodatabases
 
@@ -554,33 +550,33 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 ::: {.column width="30%"}
 **PEP Database Schemas**
 
-![](images/database_schemas.png)
+![](docs/DataManagementAccessible_files/images/database_schemas.png)
 :::
 :::
 
-## Obtain/Collect: Example DB {.smaller}
+## Obtain/Collect: Example #1 (glacial database) {.smaller}
 
 **PostgreSQL Database Structure** (data are atomized within fields and link across tables)
 
-![](images/glacial_backEnd.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/glacial_backEnd.png){fig-align="center"}
 
-## Obtain/Collect: Example DB {.smaller}
+## Obtain/Collect: Example #1 (glacial database) {.smaller}
 
 **Data Entry Forms** (in Access)
 
-![](images/glacial_dataEntry.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/glacial_dataEntry.png){fig-align="center"}
 
-## Obtain/Collect: Example DB {.smaller}
+## Obtain/Collect: Example #1 (glacial database) {.smaller}
 
 **Process Tracking** (in Access)
 
-![](images/glacial_processTracking.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/glacial_processTracking.png){fig-align="center"}
 
-## Obtain/Collect: Example DB {.smaller}
+## Obtain/Collect: Example #1 (glacial database) {.smaller}
 
 **Dataset Tracking** (in Access)
 
-![](images/glacial_datasetTracking.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/glacial_datasetTracking.png){fig-align="center"}
 
 ## Obtain/Collect: Take-away Actions {.smaller}
 
@@ -608,7 +604,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 :::
 
 ::: {.column width="30%"}
-![](images/to_do_list.jpg)
+![](docs/DataManagementAccessible_files/images/to_do_list.jpg)
 :::
 :::
 
@@ -642,27 +638,27 @@ This is an easy step to overlook. Doing it well takes time...
 :::
 :::
 
-## Process/Assure: Example Report {.smaller}
+## Process/Assure: Example #1 (in-field report) {.smaller}
 
 Review field data to ensure there were no issues with initial data collection...
 
 ::: columns
 ::: {.column width="50%"}
-![](images/bodyConditionReport_1.png)
+![](docs/DataManagementAccessible_files/images/bodyConditionReport_1.png)
 :::
 
 ::: {.column width="50%"}
-![](images/bodyConditionReport_2.png)
+![](docs/DataManagementAccessible_files/images/bodyConditionReport_2.png)
 :::
 :::
 
-## Process/Assure: Example DB {.smaller}
+## Process/Assure: Example #2 (in database) {.smaller}
 
 In a database, tables are where your data are stored. Queries are layers that exist on top of that table that summarize, filter. or order your data...they do *not* make another copy of the data. When your underlying data change, the data in the query also change automatically.
 
 Using queries to standardize extraction and to complete quality checks...
 
-![](images/database_queries.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/database_queries.png){fig-align="center"}
 
 ## Process/Assure: Take-away Actions {.smaller}
 
@@ -686,7 +682,7 @@ Using queries to standardize extraction and to complete quality checks...
 :::
 
 ::: {.column width="30%"}
-![](images/to_do_list.jpg)
+![](docs/DataManagementAccessible_files/images/to_do_list.jpg)
 :::
 :::
 
@@ -714,23 +710,23 @@ This is doesn't just have to be done in InPort.
 :::
 :::
 
-## Describe: InPort {.smaller}
+## Describe: Example #1 (InPort) {.smaller}
 
 **PEP Metadata Repository**
 
-![](images/inPort.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/inPort.png){fig-align="center"}
 
-## Describe: Project Management {.smaller}
+## Describe: Example #2 (dashboard) {.smaller}
 
 **Project management tracking within PEP dashboard**
 
-![](images/pep_dashboard.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/pep_dashboard.png){fig-align="center"}
 
-## Describe: GitHub {.smaller}
+## Describe: Example #3 (GitHub) {.smaller}
 
 **Project management on GitHub** (developed by Josh London)
 
-![](images/gitHub_harborSeals.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/gitHub_harborSeals.png){fig-align="center"}
 
 ## Describe: Take-away Actions {.smaller}
 
@@ -758,7 +754,7 @@ This is doesn't just have to be done in InPort.
 :::
 
 ::: {.column width="30%"}
-![](images/to_do_list.jpg)
+![](docs/DataManagementAccessible_files/images/to_do_list.jpg)
 :::
 :::
 
@@ -802,17 +798,17 @@ This is doesn't just have to be done in InPort.
 :::
 :::
 
-## Discover: Example AGOL {.smaller}
+## Discover: Example #1 (AGOL) {.smaller}
 
 **Data Portal** (for sharing data with AK Regional Office)
 
-![](images/agol.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/agol.png){fig-align="center"}
 
-## Discover: Example Shiny App {.smaller}
+## Discover: Example #2 (Shiny App) {.smaller}
 
 **Interactive application** (for exploring harbor seal abundance estimates)
 
-![](images/coastalPv_ShinyApp.png)
+![](docs/DataManagementAccessible_files/images/coastalPv_ShinyApp.png)
 
 ## Preserve/Discover: Take-away Actions {.smaller}
 
@@ -834,7 +830,7 @@ This is doesn't just have to be done in InPort.
 :::
 
 ::: {.column width="30%"}
-![](images/to_do_list.jpg)
+![](docs/DataManagementAccessible_files/images/to_do_list.jpg)
 :::
 :::
 
@@ -860,11 +856,11 @@ For an analyses, you might be working with a single data set or integrating a nu
 :::
 :::
 
-## Integrate/Analyze: Example {.smaller}
+## Integrate: Example #1 (getting data) {.smaller}
 
 **R package** (to simplify and ensure consistent retrieval from the database)
 
-![](images/pepDataConnect.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/pepDataConnect.png){fig-align="center"}
 
 ## Integrate/Analyze: Take-away Actions {.smaller}
 
@@ -886,29 +882,13 @@ For an analyses, you might be working with a single data set or integrating a nu
 :::
 
 ::: {.column width="30%"}
-![](images/to_do_list.jpg)
+![](docs/DataManagementAccessible_files/images/to_do_list.jpg)
 :::
 :::
 
-## Aerial Harbor Seal Surveys Example... {.smaller}
+## Staff Engagement in Data Management Part II {.smaller}
 
-1.  Regular standing data-related meetings throughout the year for planning/reviewing/ processing. After one field effort and before the next, evaluate any changes needed for data collection.
-
-2.  Survey areas are stored in the database for archive and tracking.
-
-3.  Data collection is standardized year-to-year, so import/data entry into the database is seamless. And the database is designed such that the fields are atomized and the structure is adaptable.
-
-4.  The counting process works directly with the DB -- allows for immediate QA/QC after counting is complete and for those data to be exported in one simple step for analysis.
-
-5.  The analytical results are ingested into the DB, and the only change required for the (future) Shiny app will be a change to the referenced data set.
-
-6.  InPort metadata records, datasets on NOAA Big Data Platform and ArcGIS online are updated.
-
-7.  We start the process again...
-
-## Staff Engagement Part II
-
-Make data management practices more friendly to and considerate of staff skills/abilities:
+Make data management practices more friendly to and considerate of everyone within a project/program:
 
 -   Target users of all technical backgrounds and develop systems that are accommodating to everyone.
 
@@ -926,7 +906,9 @@ Make data management practices more friendly to and considerate of staff skills/
 
 -   Recognize this work can be un(der)funded and/or un(der)staffed...
 
-## Staff Engagement Part II: Questions {.smaller}
+## Staff Engagement in Data Management Part II
+
+Questions to consider:
 
 -   Is the planning process inclusive (as appropriate)?
 
@@ -934,48 +916,69 @@ Make data management practices more friendly to and considerate of staff skills/
 
 -   Are there clear instructions for how data will be collected?
 
--   Have staff been given the appropriate training for collecting and/or processing data?
+-   Have staff been trained and are they confident in their ability to collect data?
 
 -   Are staff comfortable sharing mis-steps or issues with data collection?
+
+-   Have staff been given the appropriate training for processing data?
 
 -   Does documentation of processing steps exist? Is it accessible?
 
 -   Do we have processes in place to reduce process errors, and especially individual responsibility?
 
+-   Are all perspectives being heard?
+
+-   Is the information accessible and appropriate for analysis?
+
 -   Does the process for retrieving and updating data clear and avoidant of errors?
 
--   Is the process for sharing data for an analysis inclusive of a diversity of perspectives? The people who collected the data might have different concerns about how data are analyzed based on their own observations/experiences than the project/data lead...
+-   Is the process for sharing data for an analysis inclusive of a diversity of perspectives? The people who collected the data might have different concerns about how data are analyzed based on their own observations/experiences than the project lead or data lead...
+
+-   Are we ensuring that our data are accessible from an availability perspective?
 
 -   Are the data available in a format that is accessible?
 
-## Errors Happen! {.smaller}
+-   Are we ensuring that our data are accessible from an equity perspective?Aerial Harbor Seal Surveys Example...
 
-::: columns
-::: {.column width="30%"}
-![](https://imgs.xkcd.com/comics/error_types.png)
-:::
+1.  Regular standing data-related meetings throughout the year for planning/reviewing/ processing. After one field effort and before the next, evaluate any changes needed for data collection.
 
-::: {.column width="70%"}
+2.  Survey areas are stored in the database for archive and tracking.
+
+3.  Data collection is standardized year-to-year, so import/data entry into the database is seamless. And the database is designed such that the fields are atomized and the structure is adaptable.
+
+4.  The counting process works directly with the DB -- allows for immediate QA/QC after counting is complete and for those data to be exported in one simple step for analysis.
+
+5.  The analytical results are ingested into the DB, and the only change required for the (future) Shiny app will be a change to the referenced data set.
+
+6.  InPort metadata records, datasets on NOAA Big Data Platform and ArcGIS online are updated.
+
+7.  We start the process again...
+
+## Error Happen!
+
 -   Systemic Error
 
     -   Errors due to system or other bias
+
     -   Typically avoided by pre-project planning
 
 -   Random Error
 
     -   Errors caused by random circumstances during collection
+
     -   Control what we can; adjust things as-needed
 
 -   Human Error
 
     -   Mistakes that occur during the handling, entry, or analysis of data
-    -   No one is expected to be perfect, so we must expect this!
-:::
-:::
+
+    -   No one is expected to be perfect!
+
+    -   This is a step we must expect and consider
 
 \*\*Data reviews and quality control were mentioned in NOAA Scientific Integrity Training as critical components of ensuring the integrity of the work we do!
 
-## How You Handle Errors Matters!! {.smaller}
+## How You Handle Errors Matters!!
 
 To minimize processing errors (taken from the internet), we should:
 
@@ -999,7 +1002,7 @@ I would add…
 
 ## Data-related Positions {.smaller}
 
-![](images/hierarchy_of_needs.png){fig-align="center"}
+![](docs/DataManagementAccessible_files/images/hierarchy_of_needs.png){fig-align="center"}
 
 -   Role is particularly important in the **planning** and **collecting** phases of the data management life cycle.
 
@@ -1054,9 +1057,10 @@ For data management (and life):
 
 -   [NOAA Data Management Handbook](https://nosc.noaa.gov/EDMC/documents/NAO_212-15B-Data_Mgt_Handbook-2024-Oct-1_remediated.pdf)
 -   [PEP Data Management Plan](https://htmlpreview.github.io/?https://github.com/staciekoslovsky-noaa/PEP_DataMgmtPlan/blob/main/PEP_DataMgmtPlan.html)
+-   [Biological Observation Data Standardization - A Primer for Data Managers](https://esip.figshare.com/articles/online_resource/Biological_Observation_Data_Standardization_-_A_Primer_for_Data_Managers/16806712/2)
 -   [DataOne Primer on Data Management](https://repository.oceanbestpractices.org/bitstream/handle/11329/502/DataONE_BP_Primer_020212.pdf)
+-   [Harvard Biomedical Data Lifecycle](https://datamanagement.hms.harvard.edu/plan-design/biomedical-data-lifecycle)
+-   [NOAA Data Strategy: Maximizing the Value of NOAA Data](https://sciencecouncil.noaa.gov/Portals/0/2020%20Data%20Strategy.pdf?ver=2020-09-17-150024-997)
 -   [ISO 8601 Standards for date/time](https://en.wikipedia.org/wiki/ISO_8601#Dates)
 
 Thank you to everyone who contributed ideas for helping to formulate parts of this talk!
-
-![](https://imgs.xkcd.com/comics/fixing_problems.png){fig-align="center"}
