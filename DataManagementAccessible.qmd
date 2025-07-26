@@ -23,6 +23,7 @@ footer: "MML Seminar Series | Data Management Made a Little Less Scary | Stacie 
     -   Bring It On!
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 -   Break-out rooms + discussion for applying some of these concepts
 
@@ -33,17 +34,24 @@ footer: "MML Seminar Series | Data Management Made a Little Less Scary | Stacie 
 =======
 ![](DataManagementAccessible_files/images/data_are_plural.jpg){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
+=======
+![](DataManagementAccessible_files/images/data_are_plural.jpg){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 
 ## 2020 NOAA Data Strategy {.smaller}
 
 ::: columns
 ::: {.column width="25%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/noaa_data_strategy.png)
 =======
 ![](DataManagementAccessible_files/images/noaa_data_strategy.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/noaa_data_strategy.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/noaa_data_strategy.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -65,6 +73,7 @@ footer: "MML Seminar Series | Data Management Made a Little Less Scary | Stacie 
 :::
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## NOAA Data Management Handbook {.smaller}
 
@@ -74,6 +83,8 @@ Published in 2024, "this Handbook is designed to provide NOAA data practitioners
 
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
 ## Overview {.smaller}
@@ -111,6 +122,7 @@ A well-designed data management system will:
 -   Be expandable and flexible to meet future needs.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Staff Engagement  {.smaller}
 
@@ -128,6 +140,8 @@ How do we come together as a team to engage in data management most effectively?
 
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
 ## Data Management Life Cycle
@@ -203,11 +217,15 @@ grViz("digraph flowchart {
       [5]: 'Preserve (at data center or archive)'
       [6]: 'Discover (make your data findable)'
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
       [7]: 'Integrate/Analyze (you know this part better than me)'
 =======
       [7]: 'Integrate and Analyze (you likely know this part better than me)'
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+      [7]: 'Integrate and Analyze (you likely know this part better than me)'
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
       [7]: 'Integrate and Analyze (you likely know this part better than me)'
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -231,11 +249,15 @@ grViz("digraph flowchart {
 -   Early planning takes a lot of work, but working through all these steps from the beginning will save you *so much* time later.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/planning.jpg){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/planning.jpg){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/planning.jpg){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/planning.jpg){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -288,11 +310,15 @@ grViz("digraph flowchart {
 **Personal File Management** (could be on computer or in user's folder)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_structure_personal.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/sample_folder_structure_personal.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/sample_folder_structure_personal.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_structure_personal.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -305,11 +331,15 @@ grViz("digraph flowchart {
 **Main Folder Structure**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_network_1.png)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_network_1.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/sample_folder_network_1.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_network_1.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -319,11 +349,15 @@ grViz("digraph flowchart {
 **Subfolders within...Data**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_network_2.png)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_network_2.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/sample_folder_network_2.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_network_2.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -333,11 +367,15 @@ grViz("digraph flowchart {
 **...ProgramMgmt & Projects**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_folder_network_3.png)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_network_3.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/sample_folder_network_3.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/sample_folder_network_3.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -363,11 +401,14 @@ There are two camps here (and I've highlighted some considerations for each):
     -   More overhead required for managing files.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
     -   New Google Shared Drives are an option for shared spaces without "ownership" by a single individual.
 
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
 For larger groups (at the program- or project-scale), I'd recommend organizing a centralized folder system and sharing within that, but either way, it's a good conversation to have.
@@ -377,11 +418,15 @@ For larger groups (at the program- or project-scale), I'd recommend organizing a
 **PEP Centralized Google Drive Folder Structure**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/pepGoogleDrive.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/pepGoogleDrive.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/pepGoogleDrive.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/pepGoogleDrive.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -527,11 +572,15 @@ Think about how you're going to...
 
 ::: {.column width="30%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -577,11 +626,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 -   Import raw or manually enter data into a database!
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Obtain/Collect: Standardization
 =======
 ## Collect: Data Collection Template
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+## Collect: Data Collection Template
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ## Collect: Data Collection Template
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -593,11 +646,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 **Main Folder Structure**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/coastal_data_1.png)
 =======
 ![](DataManagementAccessible_files/images/coastal_data_1.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/coastal_data_1.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/coastal_data_1.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -611,11 +668,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 **Subfolder Structure**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/coastal_data_2.png)
 =======
 ![](DataManagementAccessible_files/images/coastal_data_2.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/coastal_data_2.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/coastal_data_2.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -631,11 +692,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 **Wide Format**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_results_wide.png)
 =======
 ![](DataManagementAccessible_files/images/sample_results_wide.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/sample_results_wide.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/sample_results_wide.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -645,11 +710,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 **Long Format** (preferred)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/sample_results_long.png)
 =======
 ![](DataManagementAccessible_files/images/sample_results_long.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/sample_results_long.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/sample_results_long.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -692,6 +761,7 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 ::: {.column width="30%"}
 **PEP Database Schemas**
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/database_schemas.png)
@@ -781,6 +851,36 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 ![](DataManagementAccessible_files/images/glacial_datasetTracking.png){fig-align="center"}
 
 >>>>>>> parent of b57c628 (Create new materials for workshop)
+=======
+![](DataManagementAccessible_files/images/database_schemas.png)
+:::
+:::
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**PostgreSQL Database Structure** (data are atomized within fields and link across tables)
+
+![](DataManagementAccessible_files/images/glacial_backEnd.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Data Entry Forms** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_dataEntry.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Process Tracking** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_processTracking.png){fig-align="center"}
+
+## Collect: Example #1 (glacial database) {.smaller}
+
+**Dataset Tracking** (in Access)
+
+![](DataManagementAccessible_files/images/glacial_datasetTracking.png){fig-align="center"}
+
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 ## Collect: Take-away Actions {.smaller}
 
 ::: columns
@@ -808,11 +908,15 @@ How you collect data heavily influences down-stream data processing. Set yoursel
 
 ::: {.column width="30%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -850,6 +954,7 @@ This is an easy step to overlook. Doing it well takes time...
 :::
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Process/Assure: Example Report {.smaller}
 =======
@@ -858,11 +963,15 @@ This is an easy step to overlook. Doing it well takes time...
 =======
 ## Assure: Example #1 (in-field report) {.smaller}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
+=======
+## Assure: Example #1 (in-field report) {.smaller}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 
 Review field data to ensure there were no issues with initial data collection...
 
 ::: columns
 ::: {.column width="50%"}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/bodyConditionReport_1.png)
@@ -896,17 +1005,32 @@ Review field data to ensure there were no issues with initial data collection...
 
 ## Assure: Example #2 (in database) {.smaller}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
+=======
+![](DataManagementAccessible_files/images/bodyConditionReport_1.png){width="449"}
+:::
+
+::: {.column width="50%"}
+![](DataManagementAccessible_files/images/bodyConditionReport_2.png){width="531"}
+:::
+:::
+
+## Assure: Example #2 (in database) {.smaller}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 
 In a database, tables are where your data are stored. Queries are layers that exist on top of that table that summarize, filter. or order your data...they do *not* make another copy of the data. When your underlying data change, the data in the query also change automatically.
 
 Using queries to standardize extraction and to complete quality checks...
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/database_queries.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/database_queries.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/database_queries.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/database_queries.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -934,11 +1058,15 @@ Using queries to standardize extraction and to complete quality checks...
 
 ::: {.column width="30%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -974,11 +1102,15 @@ This is doesn't just have to be done in InPort.
 **PEP Metadata Repository**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/inPort.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/inPort.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/inPort.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/inPort.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -988,11 +1120,15 @@ This is doesn't just have to be done in InPort.
 **Project management tracking within PEP dashboard**
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/pep_dashboard.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/pep_dashboard.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/pep_dashboard.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/pep_dashboard.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1002,11 +1138,15 @@ This is doesn't just have to be done in InPort.
 **Project management on GitHub** (developed by Josh London)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/gitHub_harborSeals.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/gitHub_harborSeals.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/gitHub_harborSeals.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/gitHub_harborSeals.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1038,11 +1178,15 @@ This is doesn't just have to be done in InPort.
 
 ::: {.column width="30%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1094,11 +1238,15 @@ This is doesn't just have to be done in InPort.
 **Data Portal** (for sharing data with AK Regional Office)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/agol.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/agol.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/agol.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/agol.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1108,11 +1256,15 @@ This is doesn't just have to be done in InPort.
 **Interactive application** (for exploring harbor seal abundance estimates)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/coastalPv_ShinyApp.png)
 =======
 ![](DataManagementAccessible_files/images/coastalPv_ShinyApp.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/coastalPv_ShinyApp.png)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/coastalPv_ShinyApp.png)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1138,11 +1290,15 @@ This is doesn't just have to be done in InPort.
 
 ::: {.column width="30%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1176,11 +1332,15 @@ For an analyses, you might be working with a single data set or integrating a nu
 **R package** (to simplify and ensure consistent retrieval from the database)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/pepDataConnect.png){fig-align="center"}
 =======
 ![](DataManagementAccessible_files/images/pepDataConnect.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/pepDataConnect.png){fig-align="center"}
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/pepDataConnect.png){fig-align="center"}
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1206,11 +1366,15 @@ For an analyses, you might be working with a single data set or integrating a nu
 
 ::: {.column width="30%"}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ![](images/to_do_list.jpg)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+![](DataManagementAccessible_files/images/to_do_list.jpg)
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 ![](DataManagementAccessible_files/images/to_do_list.jpg)
 >>>>>>> parent of b57c628 (Create new materials for workshop)
@@ -1234,11 +1398,14 @@ For an analyses, you might be working with a single data set or integrating a nu
 7.  We start the process again...
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Staff Engagement Part II
 
 Make data management practices more friendly to and considerate of staff skills/abilities:
 =======
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
 ## Data-related Positions {.smaller}
@@ -1257,7 +1424,10 @@ Make data management practices more friendly to and considerate of staff skills/
 
 Make data management practices more diverse, equitable, inclusive, and accessible:
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
 
@@ -1277,6 +1447,7 @@ Make data management practices more diverse, equitable, inclusive, and accessibl
 
 -   Recognize this work can be un(der)funded and/or un(der)staffed...
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 ## Staff Engagement Part II: Questions {.smaller}
@@ -1366,6 +1537,8 @@ I would add…
 >>>>>>> parent of b57c628 (Create new materials for workshop):DataManagementAccessible.qmd
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 ## Reminders {.smaller}
 
 For data management (and life):
@@ -1410,10 +1583,13 @@ For data management (and life):
 ## Resources {.smaller}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD:DataManagementAccessible_Presentation.qmd
 -   [NOAA Data Management Handbook](https://nosc.noaa.gov/EDMC/documents/NAO_212-15B-Data_Mgt_Handbook-2024-Oct-1_remediated.pdf)
 -   [PEP Data Management Plan](https://htmlpreview.github.io/?https://github.com/staciekoslovsky-noaa/PEP_DataMgmtPlan/blob/main/PEP_DataMgmtPlan.html)
 =======
+=======
+>>>>>>> parent of b57c628 (Create new materials for workshop)
 =======
 >>>>>>> parent of b57c628 (Create new materials for workshop)
 -   [PEP Data Management Plan](https://github.com/staciekoslovsky-noaa/PEP_Admin/blob/main/PEP_DataMgmtPlan.qmd)
